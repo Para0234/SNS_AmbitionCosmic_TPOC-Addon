@@ -1,0 +1,126 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<ThingDef Name="SNS_Projectile_TerminusBullet" ParentName="BaseBullet">
+		<defName>SNS_TerminusGun_Projectile</defName>
+		<label>T.E.R.M.I.N.U.S Projectile</label>
+		<graphicData>
+			<texPath>Things/Projectile/SNS/Gen4/Bullet_Terminus</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<projectile>
+			<damageDef>Bullet</damageDef>
+			<damageAmountBase>1000</damageAmountBase>
+			<speed>500</speed>
+		</projectile>
+	</ThingDef>
+	<ThingDef ParentName="BaseGun">
+		<defName>SNS_TerminusGun</defName>
+		<label>The T.E.R.M.I.N.U.S.</label>
+		<description>Acronym: Telepathically-Exterminating Rifle of Mental Incineration via Umbral-loop Suspension\n\nA weapon of pure horror, it uses an energy extremely similar to that associated with psychic phenomina to absolutely obliterate whatever its projectiles touch, while also firing at a rate so high most cannot even comprehend it. None knows what truly happens when somebody dies to a T.E.R.M.I.N.U.S. projectile, but it's believed that it's truly a fate far, far worse than death.\n\nThe T.E.R.M.I.N.U.S is unique in that it does not need line-of-sight to aim, but T.E.R.M.I.N.U.S. projectiles do NOT go over walls, so if you're shooting at something behind a wall you're going to shoot that wall to pieces before you hit your target. Take care when aiming.</description>
+		<graphicData>
+			<texPath>Things/Item/Equipment/WeaponRanged/SNS/Gen4/Terminus</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<soundInteract>Interact_ChargeRifle</soundInteract>
+		<useHitPoints>false</useHitPoints>
+		<statBases>
+			<MarketValue>5000000</MarketValue> <!-- It's really only set this high to prevent pawns from randomly spawning with this, not that it should ever happen. -->
+			<Mass>2.5</Mass>
+			<Flammability>0.0</Flammability>
+			<AccuracyTouch>1</AccuracyTouch>
+			<AccuracyShort>1</AccuracyShort>
+			<AccuracyMedium>1</AccuracyMedium>
+			<AccuracyLong>1</AccuracyLong>
+			<RangedWeapon_Cooldown>0</RangedWeapon_Cooldown>
+			<DeteriorationRate>0</DeteriorationRate>
+			<Beauty>250</Beauty>
+		</statBases>
+    	<tradeTags />
+		<verbs>
+			<li>
+				<verbClass>Verb_Shoot</verbClass>
+              	<requireLineOfSight>false</requireLineOfSight>
+				<hasStandardCommand>true</hasStandardCommand>
+				<defaultProjectile>SNS_TerminusGun_Projectile</defaultProjectile>
+				<burstShotCount>3</burstShotCount>
+				<ticksBetweenBurstShots>0</ticksBetweenBurstShots>
+				<warmupTime>0.01</warmupTime>
+				<range>250</range>
+				<soundCast>Shot_ChargeRifle</soundCast>
+				<soundCastTail>GunTail_Medium</soundCastTail>
+				<muzzleFlashScale>10</muzzleFlashScale>
+			</li>
+		</verbs>
+		<techLevel>Archotech</techLevel>
+	</ThingDef>
+
+	<!-- ============================================== -->
+	
+	<ThingDef Name="SNS_Projectile_BeholderBullet" ParentName="BaseBullet">
+		<defName>SNS_Beholder_Bullet</defName>
+		<label>B.E.H.O.L.D.E.R Projectile</label>
+		<graphicData>
+			<texPath>Things/Projectile/SNS/Gen4/Bullet_Beholder</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<thingClass>Projectile_Explosive</thingClass>
+		<projectile>
+			<flyOverhead>true</flyOverhead>
+			<soundHitThickRoof>Artillery_HitThickRoof</soundHitThickRoof>
+			<soundExplode>MortarBomb_Explode</soundExplode>
+			<soundImpactAnticipate>MortarRound_PreImpact</soundImpactAnticipate>
+			<soundAmbient>MortarRound_Ambient</soundAmbient>
+			<damageDef>BombSuper</damageDef>
+			<damageAmountBase>6250</damageAmountBase>
+			<explosionRadius>2</explosionRadius>
+			<speed>500</speed>
+		</projectile>
+	</ThingDef>
+	<ThingDef ParentName="BaseGun">
+		<defName>SNS_BeholderGun</defName>
+		<label>The B.E.H.O.L.D.E.R.</label>
+		<description>Acronym: Baryon-Entropy Hard-driver Omni-Looping Decimator EXARCH Rifle\n\nA weapon charged with Stable Matter, made like its predecessor the EXARCH. The weapon itself is incredibly advanced, able to lob projectiles over walls with great accuracy, just like a mortar.</description>
+		<graphicData>
+			<texPath>Things/Item/Equipment/WeaponRanged/SNS/Gen4/Beholder</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<soundInteract>Interact_Rifle</soundInteract>
+		<useHitPoints>false</useHitPoints>
+		<statBases>
+			<WorkToMake>15000</WorkToMake>
+			<MarketValue>5000000</MarketValue> <!-- It's really only set this high to prevent pawns from randomly spawning with this, not that it should ever happen. -->
+			<Mass>2.5</Mass>
+			<Flammability>0.0</Flammability>
+			<AccuracyTouch>1</AccuracyTouch>
+			<AccuracyShort>1</AccuracyShort>
+			<AccuracyMedium>1</AccuracyMedium>
+			<AccuracyLong>1</AccuracyLong>
+			<RangedWeapon_Cooldown>0</RangedWeapon_Cooldown>
+			<DeteriorationRate>0.00</DeteriorationRate>
+			<Beauty>250</Beauty>
+		</statBases>
+    	<tradeTags />
+		<verbs>
+			<li>
+				<verbClass>Verb_Shoot</verbClass>
+				<hasStandardCommand>true</hasStandardCommand>
+				<defaultProjectile>SNS_Beholder_Bullet</defaultProjectile>
+			
+				<targetParams>
+					<canTargetLocations>true</canTargetLocations>
+				</targetParams>
+				<requireLineOfSight>false</requireLineOfSight>
+			
+				<forcedMissRadius>0.1</forcedMissRadius>
+				<warmupTime>0.1</warmupTime>
+				<range>250</range>
+				<soundCast>ChargeLance_Fire</soundCast>
+				<soundCastTail>GunTail_Heavy</soundCastTail>
+				<muzzleFlashScale>30</muzzleFlashScale>
+			</li>
+		</verbs>
+		<techLevel>Archotech</techLevel>
+	</ThingDef>
+
+</Defs>

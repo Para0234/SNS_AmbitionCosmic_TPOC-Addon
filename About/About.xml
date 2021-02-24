@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+
+<name>SNS AOTC: True Pinnacle of Creation</name>
+<author>explodoboy</author>
+<packageId>explodoboy.SNSAmbitionCosmic.Gen4Addon</packageId>
+<url>public.FutureGadgetLab.net</url>
+<supportedVersions><li>1.1</li><li>1.2</li></supportedVersions>
+<modDependencies>
+    <li>
+      <packageId>explodoboy.SNSAmbitionCosmic</packageId>
+      <displayName>Science Never Stops: Ambition of the Cosmic</displayName>
+      <steamWorkshopUrl>steam://url/CommunityFilePage/1802857253</steamWorkshopUrl>
+    </li>
+  </modDependencies>
+  <loadBefore>
+    <li>explodoboy.SNSAOTCreskin</li>
+    <li>explodoboy.SNSAmbitionCosmic.CEPatch</li>
+  </loadBefore>
+  <loadAfter>
+    <li>explodoboy.SNSAmbitionCosmic</li>
+	  <li>CETeam.CombatExtended</li>
+  </loadAfter>
+<description>This mod is an official add-on for Science Never Stops: Ambition of the Cosmic. It effectively makes the Pinnacle of Creation technology the Fourth Generation (Gen1, Gen2, Gen Omega, and POC) of SNS: AOTC.</description>
+</ModMetaData>

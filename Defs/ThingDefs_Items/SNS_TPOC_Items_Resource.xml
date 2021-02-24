@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	
+	<ThingDef ParentName="ResourceBase">
+		<thingClass>ThingWithComps</thingClass>
+		<defName>SNS_StableMatter</defName>
+		<label>Stable Matter</label>
+		<description>Stable Matter is a strange material that simply does not adhere to physics at all. It is not only immune to entropy, but in fact utterly incapable of interacting with entropy as a whole. As a consequence, time does not even remotely exist to Stable Matter, nor can it even theoretically. It is still able to interact with matter in various ways, however, including reflecting red light. It's truly a paradox, being something that can't be interacted with by anything in the universe BUT can interact with anything in said universe without compromising itself at all.\n\nTLDR; Time doesn't exist to Stable Matter therefore it's invincible, but still exists. You probably have Eternium so you can change its shape.</description>
+		<graphicData>
+			<texPath>Things/Item/Resource/SNS/StableMatter/StableMatter</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<resourceReadoutAlwaysShow>true</resourceReadoutAlwaysShow>
+		<resourceReadoutPriority>First</resourceReadoutPriority>
+		<soundInteract>Standard_Pickup</soundInteract>
+		<soundDrop>Standard_Drop</soundDrop>
+		<useHitPoints>false</useHitPoints>
+		<thingCategories><li>ResourcesRaw</li></thingCategories>
+		<stackLimit>75</stackLimit>
+		<smallVolume>false</smallVolume>
+		<drawGUIOverlay>true</drawGUIOverlay>
+		<deepCommonality>0</deepCommonality>
+		<tickerType>Never</tickerType>
+		<comps>
+			<li Class="CompProperties_Forbiddable"/>
+			<li Class="CompProperties_Glower">
+				<glowRadius>2</glowRadius>
+				<glowColor>(255,0,0,0)</glowColor>
+			</li>
+		</comps>
+		<statBases>
+			<MarketValue>5000</MarketValue>
+			<MaxHitPoints>5000000</MaxHitPoints>
+			<Mass>0.01</Mass>
+			<Flammability>0.0</Flammability>
+			<DeteriorationRate>0.0</DeteriorationRate>
+			<StuffPower_Armor_Sharp>100</StuffPower_Armor_Sharp>
+			<StuffPower_Armor_Blunt>100</StuffPower_Armor_Blunt>
+			<StuffPower_Armor_Heat>100</StuffPower_Armor_Heat>
+			<StuffPower_Insulation_Cold>500</StuffPower_Insulation_Cold>
+			<StuffPower_Insulation_Heat>500</StuffPower_Insulation_Heat>
+			<SharpDamageMultiplier>100</SharpDamageMultiplier>
+			<BluntDamageMultiplier>100</BluntDamageMultiplier>
+			<Beauty>120</Beauty>
+		</statBases>
+		<stuffProps>
+			<categories>
+				<li>Metallic</li>
+				<li>Woody</li>
+				<li>Stony</li>
+				<li>Fabric</li>
+				<li>Leathery</li>
+			</categories>
+			<color>(255,0,0)</color>
+			<appearance>Smooth</appearance>
+			<commonality>0.0</commonality>
+			<constructEffect>ConstructMetal</constructEffect>
+			<soundImpactStuff>BulletImpact_Metal</soundImpactStuff>
+			<soundMeleeHitSharp>MeleeHit_Metal_Sharp</soundMeleeHitSharp>
+			<soundMeleeHitBlunt>MeleeHit_Metal_Blunt</soundMeleeHitBlunt>
+			<statOffsets>
+				<Beauty>240</Beauty>
+				<!--<Cleanliness>1</Cleanliness>-->
+			</statOffsets>
+			<statFactors>
+				<MaxHitPoints>5000</MaxHitPoints>
+				<Flammability>0</Flammability>
+				<WorkToMake>0.1</WorkToMake>
+				<WorkToBuild>0.1</WorkToBuild>
+				<WorkTableWorkSpeedFactor>50</WorkTableWorkSpeedFactor>
+				<MeleeWeapon_CooldownMultiplier>0.05</MeleeWeapon_CooldownMultiplier>
+				<Comfort>50</Comfort>
+				<BedRestEffectiveness>15</BedRestEffectiveness>
+				<ImmunityGainSpeedFactor>15</ImmunityGainSpeedFactor>
+				<ResearchSpeedFactor>50</ResearchSpeedFactor>
+				<DoorOpenSpeed>10</DoorOpenSpeed>
+				<ArmorRating_Blunt>100</ArmorRating_Blunt>
+				<ArmorRating_Sharp>100</ArmorRating_Sharp>
+				<ArmorRating_Heat>100</ArmorRating_Heat>
+				<Insulation_Cold>500</Insulation_Cold>
+				<Insulation_Heat>500</Insulation_Heat>
+				<DeteriorationRate>-1.0</DeteriorationRate>
+			</statFactors>
+		</stuffProps>
+	</ThingDef>
+	
+</Defs>

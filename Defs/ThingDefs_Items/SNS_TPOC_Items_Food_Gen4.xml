@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ThingDef ParentName="MealBase">
+    <defName>SNS_Meal_Normal_GenIV</defName>
+    <label>Hedonist's Dream</label>
+    <description>Possibly the food Gods think of like when we mortals think about Ambrosia, this 'meal' is made almost entirely of pure Eternium, able to sustain the body perfectly no matter what one needs to sustain their body. It will never spoil or deteriorate, and is a status symbol of just how far we have come.</description>
+    <graphicData>
+      <texPath>Things/Item/Meal/SNS/SNSMealG4/SNSMealG4</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+    </graphicData>
+	<useHitPoints>false</useHitPoints>
+    <statBases>
+      <MarketValue>1500</MarketValue>
+      <Flammability>0</Flammability>
+      <DeteriorationRate>0</DeteriorationRate>
+      <Mass>0.3</Mass>
+      <Nutrition>2</Nutrition>
+    </statBases>
+    <ingestible>
+      <preferability>MealLavish</preferability>
+      <tasteThought>SNS_AteMealG4</tasteThought>
+      <ingestEffect>EatVegetarian</ingestEffect>
+      <ingestSound>Meal_Eat</ingestSound>
+      <optimalityOffsetHumanlikes>127</optimalityOffsetHumanlikes>
+    </ingestible>
+  </ThingDef>
+
+</Defs>
