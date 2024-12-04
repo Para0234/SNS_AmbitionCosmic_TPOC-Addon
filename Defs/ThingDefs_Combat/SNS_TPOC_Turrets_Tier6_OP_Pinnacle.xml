@@ -74,7 +74,7 @@
 	<comps /> <!-- Empty comps tag for patching. -->
 </ThingDef>
 
-<ThingDef ParentName="BuildingBase">
+<ThingDef ParentName="SNS_BaseTurretBuilding">
 	<defName>SNS_Turret_Pinnacle</defName>
 	<label>Bastion of Stability</label>
 	<description>The ultimate defensive weapon, the Bastion of Stability can lay waste to any incoming hostiles with ease all by itself. Its only vulnerabilities is that it cannot hit anything beneath a mountain and something too close can cause it to hit itself.</description>

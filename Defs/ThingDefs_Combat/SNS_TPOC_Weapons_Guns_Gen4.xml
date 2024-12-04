@@ -53,6 +53,7 @@
 			</li>
 		</verbs>
 		<techLevel>Archotech</techLevel>
+    	<smeltable>false</smeltable>
 	</ThingDef>
 
 	<!-- ============================================== -->
@@ -121,6 +122,7 @@
 			</li>
 		</verbs>
 		<techLevel>Archotech</techLevel>
+    	<smeltable>false</smeltable>
 	</ThingDef>
 
 </Defs>

@@ -55,7 +55,6 @@
 			<appearance>Smooth</appearance>
 			<commonality>0.0</commonality>
 			<constructEffect>ConstructMetal</constructEffect>
-			<soundImpactStuff>BulletImpact_Metal</soundImpactStuff>
 			<soundMeleeHitSharp>MeleeHit_Metal_Sharp</soundMeleeHitSharp>
 			<soundMeleeHitBlunt>MeleeHit_Metal_Blunt</soundMeleeHitBlunt>
 			<statOffsets>

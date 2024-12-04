@@ -11,7 +11,7 @@
     <uiIconScale>1.25</uiIconScale>
     <statBases>
       <MaxHitPoints>9999</MaxHitPoints>
-			<MarketValue>50000000</MarketValue> <!-- value so high to ensure nobody spawns with it -->
+	  <MarketValue>50000000</MarketValue> <!-- value so high to ensure nobody spawns with it -->
 	  <DeteriorationRate>0.0</DeteriorationRate>
       <Mass>0.05</Mass>
       <Flammability>0</Flammability>
@@ -40,6 +40,7 @@
       <useDeflectMetalEffect>true</useDeflectMetalEffect>
 	  <careIfWornByCorpse>false</careIfWornByCorpse>
     </apparel>
+    <smeltable>false</smeltable>
   </ThingDef>
 	
 	<ThingDef ParentName="FirstCycleHelmetBase">
@@ -52,7 +53,6 @@
     <defName>SNS_Apparel_FirstCycleArmor</defName>
     <label>Cycle Alpha Armor</label>
     <description>A wondrous suit of armor that projects an effectively invincible temporal barrier around its user, with an additional physical barrier on top. It's nigh-impenetrable.</description>
-	<thingClass>D9ASB.RangedShieldBelt</thingClass>
 	<techLevel>Archotech</techLevel>
 	<useHitPoints>false</useHitPoints>
     <graphicData>
@@ -76,6 +76,11 @@
       <EnergyShieldRechargeRate>100</EnergyShieldRechargeRate>
       <EnergyShieldEnergyMax>15000</EnergyShieldEnergyMax>
     </statBases>
+    <comps>
+      <li Class="CompProperties_Shield">
+        <compClass>Armorshield.CompShieldRanged</compClass>
+      </li>
+    </comps>
     <equippedStatOffsets>
       <MoveSpeed>20</MoveSpeed> <!-- You can run, you can run, but I'll always catch up. -->
     </equippedStatOffsets>
@@ -111,6 +116,7 @@
       <useDeflectMetalEffect>true</useDeflectMetalEffect>
 	  <careIfWornByCorpse>false</careIfWornByCorpse>
     </apparel>
+    <smeltable>false</smeltable>
   </ThingDef>
   
 </Defs>
