@@ -46,7 +46,7 @@
   <ThingDef ParentName="FirstCycleHelmetBase">
     <defName>SNS_Apparel_FirstCycleHelmet</defName>
     <label>Cycle Alpha Helmet</label>
-    <description>A wondrous suit helmet with a beautiful halo floating atop the wearer's head. The helmet creates a temporal field around its user's head, protecting them from all incoming fire. It's just like a helmet, but makes you look like an invincible angel sent from another reality.\n\nIt also works in space if you happen to find yourself floating in the eternal voids, somehow.</description>
+    <description>A wondrous helmet with a beautiful holographic halo floating atop the wearer's head. The helmet creates a temporal field around the user's head, protecting them from all incoming fire, and even the vacuum of deep space. Those fortunate enough to survive an combat encounter with one of its bearers, describe an invincible angel wreaking divine retribution on the battlefield.</description>
   </ThingDef>
 
   <ThingDef ParentName="ApparelBase">
