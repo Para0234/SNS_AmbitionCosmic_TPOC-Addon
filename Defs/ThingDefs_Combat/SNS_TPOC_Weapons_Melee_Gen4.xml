@@ -1,7 +1,7 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
 
-	<ThingDef ParentName="BaseWeapon"> <!-- A -->
+  <ThingDef ParentName="BaseWeapon"> <!-- A -->
     <defName>SNS_RecursionMelee</defName>
     <label>The R.E.C.U.R.S.I.O.N.</label>
     <description>Acronym: Recursion-based Exterminatus Cutting-device Using Recursive-temporal Strikes in Omni-Nullspace\n\nA terrifying weapon that bends the very flow of time, allowing one to strike with extreme speed even without having to put in any additional effort. Reality itself seems to coil around its user, striking with it.</description>
@@ -12,14 +12,14 @@
     <uiIconScale>1.1</uiIconScale>
     <techLevel>Archotech</techLevel>
     <equippedAngleOffset>45</equippedAngleOffset>
-	<statBases>
-		<MarketValue>5000000</MarketValue> <!-- It's really only set this high to prevent pawns from randomly spawning with this, not that it should ever happen. -->
-		<Mass>2.5</Mass>
-		<Beauty>250</Beauty>
-		<DeteriorationRate>0</DeteriorationRate>
-		<Flammability>0.0</Flammability>
-	</statBases>
-	<useHitPoints>false</useHitPoints>
+    <statBases>
+      <MarketValue>5000000</MarketValue> <!-- It's really only set this high to prevent pawns from randomly spawning with this, not that it should ever happen. -->
+      <Mass>2.5</Mass>
+      <Beauty>250</Beauty>
+      <DeteriorationRate>0</DeteriorationRate>
+      <Flammability>0.0</Flammability>
+    </statBases>
+    <useHitPoints>false</useHitPoints>
     <thingCategories>
       <li>WeaponsMelee</li>
     </thingCategories>

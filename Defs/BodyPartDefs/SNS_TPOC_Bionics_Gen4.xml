@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8"?>
 
 <Defs>
 	<!-- Base part -->
@@ -13,44 +13,48 @@
 		</graphicData>
 		<tradeTags Inherit="False"></tradeTags>
 		<useHitPoints>false</useHitPoints>
-		
+
 		<statBases>
 			<DeteriorationRate>0.0</DeteriorationRate>
 			<Flammability>0.0</Flammability>
 		</statBases>
-		<thingCategories><li>SNS_ThingCategory_Bionics_GenIV</li></thingCategories>
+		<thingCategories>
+			<li>SNS_ThingCategory_Bionics_GenIV</li>
+		</thingCategories>
 	</ThingDef>
-	
+
 	<HediffDef Name="SNS_BionicHediff_GenIV" ParentName="AddedBodyPartBase" Abstract="True">
 		<defName>SNS_Base_BionicHediff_GenIV</defName>
 		<defaultLabelColor>(0,178,255)</defaultLabelColor>
-        <comps/>
+		<comps />
 		<addedPartProps>
 			<solid>true</solid>
 			<partEfficiency>7</partEfficiency>
 			<betterThanNatural>true</betterThanNatural>
 		</addedPartProps>
 	</HediffDef>
-	
+
 	<HediffDef Name="SNS_BionicImplantHediff_GenIV" ParentName="ImplantHediffBase" Abstract="True">
 		<defName>SNS_Base_BionicHediffImplant_GenIV</defName>
 		<defaultLabelColor>(0,178,255)</defaultLabelColor>
-        <comps/>
+		<comps />
 		<addedPartProps>
 			<solid>true</solid>
 			<partEfficiency>1</partEfficiency>
 			<betterThanNatural>true</betterThanNatural>
 		</addedPartProps>
 	</HediffDef>
-	
-	
+
+
 	<!-- Eye -->
 	<HediffDef ParentName="SNS_BionicHediff_GenIV">
 		<defName>SNS_Hediff_BionicEye_GenIV</defName>
 		<label>zenith eye</label>
 		<labelNoun>a zenith eye</labelNoun>
 		<description>An installed zenith eye.</description>
-		<descriptionHyperlinks><ThingDef>SNS_Item_BionicEye_GenIV</ThingDef></descriptionHyperlinks>
+		<descriptionHyperlinks>
+			<ThingDef>SNS_Item_BionicEye_GenIV</ThingDef>
+		</descriptionHyperlinks>
 		<spawnThingOnRemoved>SNS_Item_BionicEye_GenIV</spawnThingOnRemoved>
 	</HediffDef>
 
@@ -58,7 +62,9 @@
 		<defName>SNS_Item_BionicEye_GenIV</defName>
 		<label>zenith eye</label>
 		<description>An eye made of pure Eternium, it is able to see beyond the limited perspective of our reality. It does not matter when or if something happened, for it can be seen by the eye. The eye can be whatever is wanted of it, taking the apperance of its user's desires. It is also so unbelievably durable that for all intents and purposes it is indestructable.</description>
-		<descriptionHyperlinks><RecipeDef>SNS_InstallBodyPart_BionicEye_GenIV</RecipeDef></descriptionHyperlinks>
+		<descriptionHyperlinks>
+			<RecipeDef>SNS_InstallBodyPart_BionicEye_GenIV</RecipeDef>
+		</descriptionHyperlinks>
 		<statBases>
 			<MarketValue>60000</MarketValue>
 			<Mass>0.2</Mass>
@@ -94,15 +100,17 @@
 		</appliedOnFixedBodyParts>
 		<addsHediff>SNS_Hediff_BionicEye_GenIV</addsHediff>
 	</RecipeDef>
-	
-	
+
+
 	<!-- Ear -->
 	<HediffDef ParentName="SNS_BionicHediff_GenIV">
 		<defName>SNS_Hediff_BionicEar_GenIV</defName>
 		<label>zenith ear</label>
 		<labelNoun>a zenith ear</labelNoun>
 		<description>An installed zenith ear.</description>
-		<descriptionHyperlinks><ThingDef>SNS_Item_BionicEar_GenIV</ThingDef></descriptionHyperlinks>
+		<descriptionHyperlinks>
+			<ThingDef>SNS_Item_BionicEar_GenIV</ThingDef>
+		</descriptionHyperlinks>
 		<spawnThingOnRemoved>SNS_Item_BionicEar_GenIV</spawnThingOnRemoved>
 	</HediffDef>
 
@@ -110,7 +118,9 @@
 		<defName>SNS_Item_BionicEar_GenIV</defName>
 		<label>zenith ear</label>
 		<description>An ear made of pure Eternium, it is able to listen beyond the thin walls of our reality. It does not matter where or when something has occured, for nothing escapes the ear's attention. The ear can be whatever is wanted of it, taking the apperance of its user's desires. It is also so unbelievably durable that for all intents and purposes it is indestructable.</description>
-		<descriptionHyperlinks><RecipeDef>SNS_InstallBodyPart_BionicEar_GenIV</RecipeDef></descriptionHyperlinks>
+		<descriptionHyperlinks>
+			<RecipeDef>SNS_InstallBodyPart_BionicEar_GenIV</RecipeDef>
+		</descriptionHyperlinks>
 		<statBases>
 			<MarketValue>60000</MarketValue>
 			<Mass>0.2</Mass>
@@ -146,15 +156,17 @@
 		</appliedOnFixedBodyParts>
 		<addsHediff>SNS_Hediff_BionicEar_GenIV</addsHediff>
 	</RecipeDef>
-	
-	
+
+
 	<!-- Nose -->
 	<HediffDef ParentName="SNS_BionicHediff_GenIV">
 		<defName>SNS_Hediff_BionicNose_GenIV</defName>
 		<label>zenith nose</label>
 		<labelNoun>a zenith nose</labelNoun>
 		<description>An installed zenith nose.</description>
-		<descriptionHyperlinks><ThingDef>SNS_Item_BionicNose_GenIV</ThingDef></descriptionHyperlinks>
+		<descriptionHyperlinks>
+			<ThingDef>SNS_Item_BionicNose_GenIV</ThingDef>
+		</descriptionHyperlinks>
 		<spawnThingOnRemoved>SNS_Item_BionicNose_GenIV</spawnThingOnRemoved>
 	</HediffDef>
 
@@ -162,7 +174,9 @@
 		<defName>SNS_Item_BionicNose_GenIV</defName>
 		<label>zenith nose</label>
 		<description>A nose made of pure Eternium, it can sense whatever can be smelled all across time and existence, no matter where and when. It does not matter if something no longer exists, or has fled this reality, for its traces can be found. The nose can be whatever is wanted of it, taking the apperance of its user's desires. It is also so unbelievably durable that for all intents and purposes it is indestructable.</description>
-		<descriptionHyperlinks><RecipeDef>SNS_InstallBodyPart_BionicNose_GenIV</RecipeDef></descriptionHyperlinks>
+		<descriptionHyperlinks>
+			<RecipeDef>SNS_InstallBodyPart_BionicNose_GenIV</RecipeDef>
+		</descriptionHyperlinks>
 		<statBases>
 			<MarketValue>60000</MarketValue>
 			<Mass>0.2</Mass>
@@ -198,15 +212,17 @@
 		</appliedOnFixedBodyParts>
 		<addsHediff>SNS_Hediff_BionicNose_GenIV</addsHediff>
 	</RecipeDef>
-	
-	
+
+
 	<!-- Jaw -->
 	<HediffDef ParentName="SNS_BionicHediff_GenIV">
 		<defName>SNS_Hediff_BionicJaw_GenIV</defName>
 		<label>zenith jaw</label>
 		<labelNoun>a zenith jaw</labelNoun>
 		<description>An installed zenith jaw.</description>
-		<descriptionHyperlinks><ThingDef>SNS_Item_BionicJaw_GenIV</ThingDef></descriptionHyperlinks>
+		<descriptionHyperlinks>
+			<ThingDef>SNS_Item_BionicJaw_GenIV</ThingDef>
+		</descriptionHyperlinks>
 		<spawnThingOnRemoved>SNS_Item_BionicJaw_GenIV</spawnThingOnRemoved>
 	</HediffDef>
 
@@ -214,7 +230,9 @@
 		<defName>SNS_Item_BionicJaw_GenIV</defName>
 		<label>zenith jaw</label>
 		<description>A jaw made of pure Eternium, it is able to utterly destroy whatever it can reach. Only Eternium itself can withstand its force. The jaw can be whatever is wanted of it, taking the apperance of its user's desires. It is also so unbelievably durable that for all intents and purposes it is indestructable.</description>
-		<descriptionHyperlinks><RecipeDef>SNS_InstallBodyPart_BionicJaw_GenIV</RecipeDef></descriptionHyperlinks>
+		<descriptionHyperlinks>
+			<RecipeDef>SNS_InstallBodyPart_BionicJaw_GenIV</RecipeDef>
+		</descriptionHyperlinks>
 		<statBases>
 			<MarketValue>60000</MarketValue>
 			<Mass>0.2</Mass>
@@ -250,15 +268,17 @@
 		</appliedOnFixedBodyParts>
 		<addsHediff>SNS_Hediff_BionicJaw_GenIV</addsHediff>
 	</RecipeDef>
-	
-	
+
+
 	<!-- Head armor -->
 	<HediffDef ParentName="SNS_BionicImplantHediff_GenIV">
 		<defName>SNS_Hediff_BionicHead_GenIV</defName>
 		<label>zenith head shroud</label>
 		<labelNoun>a zenith head shroud</labelNoun>
 		<description>An installed zenith head shroud.</description>
-		<descriptionHyperlinks><ThingDef>SNS_Item_BionicHead_GenIV</ThingDef></descriptionHyperlinks>
+		<descriptionHyperlinks>
+			<ThingDef>SNS_Item_BionicHead_GenIV</ThingDef>
+		</descriptionHyperlinks>
 		<spawnThingOnRemoved>SNS_Item_BionicHead_GenIV</spawnThingOnRemoved>
 		<addedPartProps inherit="false">
 			<solid>true</solid>
@@ -271,7 +291,9 @@
 		<defName>SNS_Item_BionicHead_GenIV</defName>
 		<label>zenith head shroud</label>
 		<description>'Armor' made for the head, made of pure Eternium. Truth is, it is moreso an infusion of Eternium into the head than an armor, though the effects are the exact same, creating a nigh-indestructable barrier.</description>
-		<descriptionHyperlinks><RecipeDef>SNS_InstallBodyPart_BionicHead_GenIV</RecipeDef></descriptionHyperlinks>
+		<descriptionHyperlinks>
+			<RecipeDef>SNS_InstallBodyPart_BionicHead_GenIV</RecipeDef>
+		</descriptionHyperlinks>
 		<statBases>
 			<MarketValue>60000</MarketValue>
 			<Mass>0.2</Mass>
@@ -312,15 +334,17 @@
 		</incompatibleWithHediffTags>
 		<addsHediff>SNS_Hediff_BionicHead_GenIV</addsHediff>
 	</RecipeDef>
-	
-	
+
+
 	<!-- Neck armor -->
 	<HediffDef ParentName="SNS_BionicImplantHediff_GenIV">
 		<defName>SNS_Hediff_BionicNeck_GenIV</defName>
 		<label>zenith neck shroud</label>
 		<labelNoun>a zenith neck shroud</labelNoun>
 		<description>An installed zenith neck shroud.</description>
-		<descriptionHyperlinks><ThingDef>SNS_Item_BionicNeck_GenIV</ThingDef></descriptionHyperlinks>
+		<descriptionHyperlinks>
+			<ThingDef>SNS_Item_BionicNeck_GenIV</ThingDef>
+		</descriptionHyperlinks>
 		<spawnThingOnRemoved>SNS_Item_BionicNeck_GenIV</spawnThingOnRemoved>
 		<addedPartProps inherit="false">
 			<solid>true</solid>
@@ -333,7 +357,9 @@
 		<defName>SNS_Item_BionicNeck_GenIV</defName>
 		<label>zenith neck shroud</label>
 		<description>'Armor' made for the neck, made of pure Eternium. Truth is, it is moreso an infusion of Eternium into the neck than an armor, though the effects are the exact same, creating a nigh-indestructable barrier.</description>
-		<descriptionHyperlinks><RecipeDef>SNS_InstallBodyPart_BionicNeck_GenIV</RecipeDef></descriptionHyperlinks>
+		<descriptionHyperlinks>
+			<RecipeDef>SNS_InstallBodyPart_BionicNeck_GenIV</RecipeDef>
+		</descriptionHyperlinks>
 		<statBases>
 			<MarketValue>60000</MarketValue>
 			<Mass>0.2</Mass>
@@ -374,15 +400,17 @@
 		</incompatibleWithHediffTags>
 		<addsHediff>SNS_Hediff_BionicNeck_GenIV</addsHediff>
 	</RecipeDef>
-	
-	
+
+
 	<!-- Torso armor -->
 	<HediffDef ParentName="SNS_BionicImplantHediff_GenIV">
 		<defName>SNS_Hediff_BionicTorso_GenIV</defName>
 		<label>zenith torso shroud</label>
 		<labelNoun>a zenith torso shroud</labelNoun>
 		<description>An installed zenith torso shroud.</description>
-		<descriptionHyperlinks><ThingDef>SNS_Item_BionicTorso_GenIV</ThingDef></descriptionHyperlinks>
+		<descriptionHyperlinks>
+			<ThingDef>SNS_Item_BionicTorso_GenIV</ThingDef>
+		</descriptionHyperlinks>
 		<spawnThingOnRemoved>SNS_Item_BionicTorso_GenIV</spawnThingOnRemoved>
 		<addedPartProps inherit="false">
 			<solid>true</solid>
@@ -395,7 +423,9 @@
 		<defName>SNS_Item_BionicTorso_GenIV</defName>
 		<label>zenith torso shroud</label>
 		<description>'Armor' made for the torso, made of pure Eternium. Truth is, it is moreso an infusion of Eternium into the torso than an armor, though the effects are the exact same, creating a nigh-indestructable barrier.</description>
-		<descriptionHyperlinks><RecipeDef>SNS_InstallBodyPart_BionicTorso_GenIV</RecipeDef></descriptionHyperlinks>
+		<descriptionHyperlinks>
+			<RecipeDef>SNS_InstallBodyPart_BionicTorso_GenIV</RecipeDef>
+		</descriptionHyperlinks>
 		<statBases>
 			<MarketValue>60000</MarketValue>
 			<Mass>0.2</Mass>
@@ -436,15 +466,17 @@
 		</incompatibleWithHediffTags>
 		<addsHediff>SNS_Hediff_BionicTorso_GenIV</addsHediff>
 	</RecipeDef>
-	
-	
+
+
 	<!-- Arm -->
 	<HediffDef ParentName="SNS_BionicHediff_GenIV">
 		<defName>SNS_Hediff_BionicArm_GenIV</defName>
 		<label>zenith arm</label>
 		<labelNoun>a zenith arm</labelNoun>
 		<description>An installed zenith arm.</description>
-		<descriptionHyperlinks><ThingDef>SNS_Item_BionicArm_GenIV</ThingDef></descriptionHyperlinks>
+		<descriptionHyperlinks>
+			<ThingDef>SNS_Item_BionicArm_GenIV</ThingDef>
+		</descriptionHyperlinks>
 		<comps>
 			<li Class="HediffCompProperties_VerbGiver">
 				<tools>
@@ -468,7 +500,9 @@
 		<defName>SNS_Item_BionicArm_GenIV</defName>
 		<label>zenith arm</label>
 		<description>An arm made of pure Eternium, it has no true physical limits to what it can grasp and build with. Time itself is at its user's grasp, a grasp never seen before. The arm can be whatever is wanted of it, taking the apperance of its user's desires. It is also so unbelievably durable that for all intents and purposes it is indestructable.</description>
-		<descriptionHyperlinks><RecipeDef>SNS_InstallBodyPart_BionicArm_GenIV</RecipeDef></descriptionHyperlinks>
+		<descriptionHyperlinks>
+			<RecipeDef>SNS_InstallBodyPart_BionicArm_GenIV</RecipeDef>
+		</descriptionHyperlinks>
 		<statBases>
 			<MarketValue>60000</MarketValue>
 			<Mass>1.5</Mass>
@@ -504,15 +538,17 @@
 		</appliedOnFixedBodyParts>
 		<addsHediff>SNS_Hediff_BionicArm_GenIV</addsHediff>
 	</RecipeDef>
-	
-	
+
+
 	<!-- Leg -->
 	<HediffDef ParentName="SNS_BionicHediff_GenIV">
 		<defName>SNS_Hediff_BionicLeg_GenIV</defName>
 		<label>zenith leg</label>
 		<labelNoun>a zenith leg</labelNoun>
 		<description>An installed zenith leg.</description>
-		<descriptionHyperlinks><ThingDef>SNS_Item_BionicLeg_GenIV</ThingDef></descriptionHyperlinks>
+		<descriptionHyperlinks>
+			<ThingDef>SNS_Item_BionicLeg_GenIV</ThingDef>
+		</descriptionHyperlinks>
 		<spawnThingOnRemoved>SNS_Item_BionicLeg_GenIV</spawnThingOnRemoved>
 	</HediffDef>
 
@@ -520,7 +556,9 @@
 		<defName>SNS_Item_BionicLeg_GenIV</defName>
 		<label>zenith leg</label>
 		<description>A leg made of pure Eternium it has nigh-on zero limits to what it can traverse. The leg can be whatever is wanted of it, taking the apperance of its user's desires. It is also so unbelievably durable that for all intents and purposes it is indestructable.</description>
-		<descriptionHyperlinks><RecipeDef>SNS_InstallBodyPart_BionicLeg_GenIV</RecipeDef></descriptionHyperlinks>
+		<descriptionHyperlinks>
+			<RecipeDef>SNS_InstallBodyPart_BionicLeg_GenIV</RecipeDef>
+		</descriptionHyperlinks>
 		<statBases>
 			<MarketValue>60000</MarketValue>
 			<Mass>1.5</Mass>
@@ -556,15 +594,17 @@
 		</appliedOnFixedBodyParts>
 		<addsHediff>SNS_Hediff_BionicLeg_GenIV</addsHediff>
 	</RecipeDef>
-	
-	
+
+
 	<!-- Spine -->
 	<HediffDef ParentName="SNS_BionicHediff_GenIV">
 		<defName>SNS_Hediff_BionicSpine_GenIV</defName>
 		<label>zenith spine</label>
 		<labelNoun>a zenith spine</labelNoun>
 		<description>An installed zenith spine.</description>
-		<descriptionHyperlinks><ThingDef>SNS_Item_BionicSpine_GenIV</ThingDef></descriptionHyperlinks>
+		<descriptionHyperlinks>
+			<ThingDef>SNS_Item_BionicSpine_GenIV</ThingDef>
+		</descriptionHyperlinks>
 		<spawnThingOnRemoved>SNS_Item_BionicSpine_GenIV</spawnThingOnRemoved>
 	</HediffDef>
 
@@ -572,7 +612,9 @@
 		<defName>SNS_Item_BionicSpine_GenIV</defName>
 		<label>zenith spine</label>
 		<description>A spine made of pure Eternium, it can bear any weight and stress. The spine can be whatever is wanted of it, taking the apperance of its user's desires. It is also so unbelievably durable that for all intents and purposes it is indestructable.</description>
-		<descriptionHyperlinks><RecipeDef>SNS_InstallBodyPart_BionicSpine_GenIV</RecipeDef></descriptionHyperlinks>
+		<descriptionHyperlinks>
+			<RecipeDef>SNS_InstallBodyPart_BionicSpine_GenIV</RecipeDef>
+		</descriptionHyperlinks>
 		<statBases>
 			<MarketValue>60000</MarketValue>
 			<Mass>0.75</Mass>
@@ -608,37 +650,41 @@
 		</appliedOnFixedBodyParts>
 		<addsHediff>SNS_Hediff_BionicSpine_GenIV</addsHediff>
 	</RecipeDef>
-	
-	
+
+
 	<!-- Brain Implant -->
 	<HediffDef ParentName="SNS_BionicHediff_GenIV">
 		<defName>SNS_Hediff_BionicBrain_GenIV</defName>
 		<label>zenith neural enchantment</label>
 		<labelNoun>a zenith neural enchantment</labelNoun>
 		<description>An installed zenith neural enchantment.</description>
-		<descriptionHyperlinks><ThingDef>SNS_Item_BionicBrain_GenIV</ThingDef></descriptionHyperlinks>
+		<descriptionHyperlinks>
+			<ThingDef>SNS_Item_BionicBrain_GenIV</ThingDef>
+		</descriptionHyperlinks>
 		<spawnThingOnRemoved>SNS_Item_BionicBrain_GenIV</spawnThingOnRemoved>
-        <stages>
-            <li>
-                <painFactor>0</painFactor>
-                <makeImmuneTo>
-                <li>Dementia</li>
-                <li>Alzheimers</li>
-                <li>PsychicShock</li>
-                </makeImmuneTo>
-                <statFactors>
-                    <PsychicEntropyMax MayRequire="Ludeon.RimWorld.Royalty">1000</PsychicEntropyMax>
-                    <PsychicEntropyRecoveryRate MayRequire="Ludeon.RimWorld.Royalty">1000</PsychicEntropyRecoveryRate>
-                </statFactors>
-            </li>
-        </stages>
+		<stages>
+			<li>
+				<painFactor>0</painFactor>
+				<makeImmuneTo>
+					<li>Dementia</li>
+					<li>Alzheimers</li>
+					<li>PsychicShock</li>
+				</makeImmuneTo>
+				<statFactors>
+					<PsychicEntropyMax MayRequire="Ludeon.RimWorld.Royalty">1000</PsychicEntropyMax>
+					<PsychicEntropyRecoveryRate MayRequire="Ludeon.RimWorld.Royalty">1000</PsychicEntropyRecoveryRate>
+				</statFactors>
+			</li>
+		</stages>
 	</HediffDef>
 
 	<ThingDef ParentName="SNS_BionicBodyPartBase_GenIV">
 		<defName>SNS_Item_BionicBrain_GenIV</defName>
 		<label>zenith neural enchantment</label>
 		<description>An infusion of the mind itself, the zenith neural enchantment expands one's mind beyond that of even transendant Archotechs, exposing the true nature of reality to one. It can not be removed without destroying the brain, unless a replacement neural enchanter is given.\n\nInstalled Neural Enchanters prevent the development of Alzheimers and Dementia, but cannot cure existing conditions.</description>
-		<descriptionHyperlinks><RecipeDef>SNS_InstallBodyPart_BionicBrain_GenIV</RecipeDef></descriptionHyperlinks>
+		<descriptionHyperlinks>
+			<RecipeDef>SNS_InstallBodyPart_BionicBrain_GenIV</RecipeDef>
+		</descriptionHyperlinks>
 		<statBases>
 			<MarketValue>60000</MarketValue>
 			<Mass>0.15</Mass>
@@ -674,15 +720,17 @@
 		</appliedOnFixedBodyParts>
 		<addsHediff>SNS_Hediff_BionicBrain_GenIV</addsHediff>
 	</RecipeDef>
-	
-	
+
+
 	<!-- Heart -->
 	<HediffDef ParentName="SNS_BionicHediff_GenIV">
 		<defName>SNS_Hediff_BionicHeart_GenIV</defName>
 		<label>zenith heart</label>
 		<labelNoun>a zenith heart</labelNoun>
 		<description>An installed zenith heart.</description>
-		<descriptionHyperlinks><ThingDef>SNS_Item_BionicHeart_GenIV</ThingDef></descriptionHyperlinks>
+		<descriptionHyperlinks>
+			<ThingDef>SNS_Item_BionicHeart_GenIV</ThingDef>
+		</descriptionHyperlinks>
 		<spawnThingOnRemoved>SNS_Item_BionicHeart_GenIV</spawnThingOnRemoved>
 		<stages>
 			<li>
@@ -695,7 +743,9 @@
 		<defName>SNS_Item_BionicHeart_GenIV</defName>
 		<label>zenith heart</label>
 		<description>A heart made of pure Eternium, there is literally no limit to how much it can circulate through the body, and is also able to control the flow of every last cell of blood, preventing bleeding entirely. It is also so unbelievably durable that for all intents and purposes it is indestructable.</description>
-		<descriptionHyperlinks><RecipeDef>SNS_InstallBodyPart_BionicHeart_GenIV</RecipeDef></descriptionHyperlinks>
+		<descriptionHyperlinks>
+			<RecipeDef>SNS_InstallBodyPart_BionicHeart_GenIV</RecipeDef>
+		</descriptionHyperlinks>
 		<statBases>
 			<MarketValue>60000</MarketValue>
 			<Mass>0.4</Mass>
@@ -731,15 +781,17 @@
 		</appliedOnFixedBodyParts>
 		<addsHediff>SNS_Hediff_BionicHeart_GenIV</addsHediff>
 	</RecipeDef>
-	
-	
+
+
 	<!-- Lung -->
 	<HediffDef ParentName="SNS_BionicHediff_GenIV">
 		<defName>SNS_Hediff_BionicLung_GenIV</defName>
 		<label>zenith lung</label>
 		<labelNoun>a zenith lung</labelNoun>
 		<description>An installed zenith lung.</description>
-		<descriptionHyperlinks><ThingDef>SNS_Item_BionicLung_GenIV</ThingDef></descriptionHyperlinks>
+		<descriptionHyperlinks>
+			<ThingDef>SNS_Item_BionicLung_GenIV</ThingDef>
+		</descriptionHyperlinks>
 		<spawnThingOnRemoved>SNS_Item_BionicLung_GenIV</spawnThingOnRemoved>
 	</HediffDef>
 
@@ -747,7 +799,9 @@
 		<defName>SNS_Item_BionicLung_GenIV</defName>
 		<label>zenith lung</label>
 		<description>A 'lung' of pure Eternium that draws air from the surrounding atmosphere, instead of requiring to breathe it in first. It is also so unbelievably durable that for all intents and purposes it is indestructable.</description>
-		<descriptionHyperlinks><RecipeDef>SNS_InstallBodyPart_BionicLung_GenIV</RecipeDef></descriptionHyperlinks>
+		<descriptionHyperlinks>
+			<RecipeDef>SNS_InstallBodyPart_BionicLung_GenIV</RecipeDef>
+		</descriptionHyperlinks>
 		<statBases>
 			<MarketValue>60000</MarketValue>
 			<Mass>0.4</Mass>
@@ -783,15 +837,17 @@
 		</appliedOnFixedBodyParts>
 		<addsHediff>SNS_Hediff_BionicLung_GenIV</addsHediff>
 	</RecipeDef>
-	
-	
+
+
 	<!-- Kidney -->
 	<HediffDef ParentName="SNS_BionicHediff_GenIV">
 		<defName>SNS_Hediff_BionicKidney_GenIV</defName>
 		<label>zenith kidney</label>
 		<labelNoun>a zenith kidney</labelNoun>
 		<description>An installed zenith kidney.</description>
-		<descriptionHyperlinks><ThingDef>SNS_Item_BionicKidney_GenIV</ThingDef></descriptionHyperlinks>
+		<descriptionHyperlinks>
+			<ThingDef>SNS_Item_BionicKidney_GenIV</ThingDef>
+		</descriptionHyperlinks>
 		<spawnThingOnRemoved>SNS_Item_BionicKidney_GenIV</spawnThingOnRemoved>
 	</HediffDef>
 
@@ -799,7 +855,9 @@
 		<defName>SNS_Item_BionicKidney_GenIV</defName>
 		<label>zenith kidney</label>
 		<description>A kidney made of pure Eternium that filters the entire blood stream all at once, creating a truly pure body. It is also so unbelievably durable that for all intents and purposes it is indestructable.</description>
-		<descriptionHyperlinks><RecipeDef>SNS_InstallBodyPart_BionicKidney_GenIV</RecipeDef></descriptionHyperlinks>
+		<descriptionHyperlinks>
+			<RecipeDef>SNS_InstallBodyPart_BionicKidney_GenIV</RecipeDef>
+		</descriptionHyperlinks>
 		<statBases>
 			<MarketValue>60000</MarketValue>
 			<Mass>0.4</Mass>
@@ -835,15 +893,17 @@
 		</appliedOnFixedBodyParts>
 		<addsHediff>SNS_Hediff_BionicKidney_GenIV</addsHediff>
 	</RecipeDef>
-	
-	
+
+
 	<!-- Liver -->
 	<HediffDef ParentName="SNS_BionicHediff_GenIV">
 		<defName>SNS_Hediff_BionicLiver_GenIV</defName>
 		<label>zenith liver</label>
 		<labelNoun>a zenith liver</labelNoun>
 		<description>An installed zenith liver.</description>
-		<descriptionHyperlinks><ThingDef>SNS_Item_BionicLiver_GenIV</ThingDef></descriptionHyperlinks>
+		<descriptionHyperlinks>
+			<ThingDef>SNS_Item_BionicLiver_GenIV</ThingDef>
+		</descriptionHyperlinks>
 		<spawnThingOnRemoved>SNS_Item_BionicLiver_GenIV</spawnThingOnRemoved>
 	</HediffDef>
 
@@ -851,7 +911,9 @@
 		<defName>SNS_Item_BionicLiver_GenIV</defName>
 		<label>zenith liver</label>
 		<description>A liver made of pure Eternium, it scours the entire body at every instant to keep it at its absolute zenith. It is also so unbelievably durable that for all intents and purposes it is indestructable.</description>
-		<descriptionHyperlinks><RecipeDef>SNS_InstallBodyPart_BionicLiver_GenIV</RecipeDef></descriptionHyperlinks>
+		<descriptionHyperlinks>
+			<RecipeDef>SNS_InstallBodyPart_BionicLiver_GenIV</RecipeDef>
+		</descriptionHyperlinks>
 		<statBases>
 			<MarketValue>60000</MarketValue>
 			<Mass>0.4</Mass>
@@ -887,15 +949,17 @@
 		</appliedOnFixedBodyParts>
 		<addsHediff>SNS_Hediff_BionicLiver_GenIV</addsHediff>
 	</RecipeDef>
-	
-	
+
+
 	<!-- Stomach -->
 	<HediffDef ParentName="SNS_BionicHediff_GenIV">
 		<defName>SNS_Hediff_BionicStomach_GenIV</defName>
 		<label>zenith digestive system</label>
 		<labelNoun>a zenith digestive system</labelNoun>
 		<description>An installed zenith digestive system.</description>
-		<descriptionHyperlinks><ThingDef>SNS_Item_BionicStomach_GenIV</ThingDef></descriptionHyperlinks>
+		<descriptionHyperlinks>
+			<ThingDef>SNS_Item_BionicStomach_GenIV</ThingDef>
+		</descriptionHyperlinks>
 		<spawnThingOnRemoved>SNS_Item_BionicStomach_GenIV</spawnThingOnRemoved>
 		<stages>
 			<li>
@@ -908,7 +972,9 @@
 		<defName>SNS_Item_BionicStomach_GenIV</defName>
 		<label>zenith digestive system</label>
 		<description>A whole digestive system made of pure Eternium, able to extract every last nutrient out of food perfectly. It is also, of course, completely immune to any food-borne illness. It is also so unbelievably durable that for all intents and purposes it is indestructable.</description>
-		<descriptionHyperlinks><RecipeDef>SNS_InstallBodyPart_BionicStomach_GenIV</RecipeDef></descriptionHyperlinks>
+		<descriptionHyperlinks>
+			<RecipeDef>SNS_InstallBodyPart_BionicStomach_GenIV</RecipeDef>
+		</descriptionHyperlinks>
 		<statBases>
 			<MarketValue>60000</MarketValue>
 			<Mass>0.4</Mass>

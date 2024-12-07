@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
 
 	<ThingDef Name="SNS_Projectile_TerminusBullet" ParentName="BaseBullet">
@@ -36,11 +36,11 @@
 			<DeteriorationRate>0</DeteriorationRate>
 			<Beauty>250</Beauty>
 		</statBases>
-    	<tradeTags />
+		<tradeTags />
 		<verbs>
 			<li>
 				<verbClass>Verb_Shoot</verbClass>
-              	<requireLineOfSight>false</requireLineOfSight>
+				<requireLineOfSight>false</requireLineOfSight>
 				<hasStandardCommand>true</hasStandardCommand>
 				<defaultProjectile>SNS_TerminusGun_Projectile</defaultProjectile>
 				<burstShotCount>3</burstShotCount>
@@ -53,11 +53,11 @@
 			</li>
 		</verbs>
 		<techLevel>Archotech</techLevel>
-    	<smeltable>false</smeltable>
+		<smeltable>false</smeltable>
 	</ThingDef>
 
 	<!-- ============================================== -->
-	
+
 	<ThingDef Name="SNS_Projectile_BeholderBullet" ParentName="BaseBullet">
 		<defName>SNS_Beholder_Bullet</defName>
 		<label>B.E.H.O.L.D.E.R Projectile</label>
@@ -101,18 +101,18 @@
 			<DeteriorationRate>0.00</DeteriorationRate>
 			<Beauty>250</Beauty>
 		</statBases>
-    	<tradeTags />
+		<tradeTags />
 		<verbs>
 			<li>
 				<verbClass>Verb_Shoot</verbClass>
 				<hasStandardCommand>true</hasStandardCommand>
 				<defaultProjectile>SNS_Beholder_Bullet</defaultProjectile>
-			
+
 				<targetParams>
 					<canTargetLocations>true</canTargetLocations>
 				</targetParams>
 				<requireLineOfSight>false</requireLineOfSight>
-			
+
 				<forcedMissRadius>0.1</forcedMissRadius>
 				<warmupTime>0.1</warmupTime>
 				<range>250</range>
@@ -122,7 +122,7 @@
 			</li>
 		</verbs>
 		<techLevel>Archotech</techLevel>
-    	<smeltable>false</smeltable>
+		<smeltable>false</smeltable>
 	</ThingDef>
 
 </Defs>

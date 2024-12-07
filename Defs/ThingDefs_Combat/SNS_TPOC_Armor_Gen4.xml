@@ -1,9 +1,9 @@
-<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8"?>
 <Defs>
 
-<ThingDef Name="FirstCycleHelmetBase" ParentName="ApparelBase" Abstract="True">
+  <ThingDef Name="FirstCycleHelmetBase" ParentName="ApparelBase" Abstract="True">
     <techLevel>Archotech</techLevel>
-	<useHitPoints>false</useHitPoints>
+    <useHitPoints>false</useHitPoints>
     <graphicData>
       <texPath>Things/Pawn/Humanlike/Apparel/FirstCycleHelmet/FirstCycleHelmet</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -11,8 +11,8 @@
     <uiIconScale>1.25</uiIconScale>
     <statBases>
       <MaxHitPoints>9999</MaxHitPoints>
-	  <MarketValue>50000000</MarketValue> <!-- value so high to ensure nobody spawns with it -->
-	  <DeteriorationRate>0.0</DeteriorationRate>
+      <MarketValue>50000000</MarketValue> <!-- value so high to ensure nobody spawns with it -->
+      <DeteriorationRate>0.0</DeteriorationRate>
       <Mass>0.05</Mass>
       <Flammability>0</Flammability>
       <ArmorRating_Sharp>10000</ArmorRating_Sharp>
@@ -33,28 +33,28 @@
       <layers>
         <li>Overhead</li>
       </layers>
-	  <tags>
-		<li>EVA</li>
-		<li>PrestigeCombatGear</li>
-	  </tags>
+      <tags>
+        <li>EVA</li>
+        <li>PrestigeCombatGear</li>
+      </tags>
       <useDeflectMetalEffect>true</useDeflectMetalEffect>
-	  <careIfWornByCorpse>false</careIfWornByCorpse>
+      <careIfWornByCorpse>false</careIfWornByCorpse>
     </apparel>
     <smeltable>false</smeltable>
   </ThingDef>
-	
-	<ThingDef ParentName="FirstCycleHelmetBase">
+
+  <ThingDef ParentName="FirstCycleHelmetBase">
     <defName>SNS_Apparel_FirstCycleHelmet</defName>
     <label>Cycle Alpha Helmet</label>
     <description>A wondrous suit helmet with a beautiful halo floating atop the wearer's head. The helmet creates a temporal field around its user's head, protecting them from all incoming fire. It's just like a helmet, but makes you look like an invincible angel sent from another reality.\n\nIt also works in space if you happen to find yourself floating in the eternal voids, somehow.</description>
   </ThingDef>
-  
+
   <ThingDef ParentName="ApparelBase">
     <defName>SNS_Apparel_FirstCycleArmor</defName>
     <label>Cycle Alpha Armor</label>
     <description>A wondrous suit of armor that projects an effectively invincible temporal barrier around its user, with an additional physical barrier on top. It's nigh-impenetrable.</description>
-	<techLevel>Archotech</techLevel>
-	<useHitPoints>false</useHitPoints>
+    <techLevel>Archotech</techLevel>
+    <useHitPoints>false</useHitPoints>
     <graphicData>
       <texPath>Things/Pawn/Humanlike/Apparel/FirstCycleArmor/FirstCycleArmor</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -62,8 +62,8 @@
     <tickerType>Normal</tickerType>
     <statBases>
       <MaxHitPoints>9999</MaxHitPoints>
-			<MarketValue>50000000</MarketValue> <!-- value so high to ensure nobody spawns with it -->
-	  <DeteriorationRate>0.0</DeteriorationRate>
+      <MarketValue>50000000</MarketValue> <!-- value so high to ensure nobody spawns with it -->
+      <DeteriorationRate>0.0</DeteriorationRate>
       <Mass>0.5</Mass>
       <Flammability>0.0</Flammability>
       <ArmorRating_Sharp>10000</ArmorRating_Sharp>
@@ -72,7 +72,7 @@
       <Insulation_Cold>10000</Insulation_Cold>
       <Insulation_Heat>10000</Insulation_Heat>
       <EquipDelay>2</EquipDelay>
-	  
+
       <EnergyShieldRechargeRate>100</EnergyShieldRechargeRate>
       <EnergyShieldEnergyMax>15000</EnergyShieldEnergyMax>
     </statBases>
@@ -95,28 +95,28 @@
     <apparel>
       <bodyPartGroups>
         <li>Torso</li>
-		<li>Waist</li>
+        <li>Waist</li>
         <li>Neck</li>
         <li>Shoulders</li>
         <li>Arms</li>
-		<li>Hands</li>
+        <li>Hands</li>
         <li>Legs</li>
-		<li>Feet</li>
+        <li>Feet</li>
       </bodyPartGroups>
       <wornGraphicPath>Things/Pawn/Humanlike/Apparel/FirstCycleArmor/FirstCycleArmor</wornGraphicPath>
       <layers>
         <li>Middle</li>
-		<li>Belt</li>
+        <li>Belt</li>
         <li>Shell</li>
       </layers>
-	  <tags>
-		<li>EVA</li>
-	    <li>PrestigeCombatGear</li>
-	  </tags>
+      <tags>
+        <li>EVA</li>
+        <li>PrestigeCombatGear</li>
+      </tags>
       <useDeflectMetalEffect>true</useDeflectMetalEffect>
-	  <careIfWornByCorpse>false</careIfWornByCorpse>
+      <careIfWornByCorpse>false</careIfWornByCorpse>
     </apparel>
     <smeltable>false</smeltable>
   </ThingDef>
-  
+
 </Defs>

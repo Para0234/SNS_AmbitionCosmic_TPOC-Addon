@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8"?>
 <Defs>
 
   <ThingDef ParentName="MealBase">
@@ -9,7 +9,7 @@
       <texPath>Things/Item/Meal/SNS/SNSMealG4/SNSMealG4</texPath>
       <graphicClass>Graphic_StackCount</graphicClass>
     </graphicData>
-	<useHitPoints>false</useHitPoints>
+    <useHitPoints>false</useHitPoints>
     <statBases>
       <MarketValue>1500</MarketValue>
       <Flammability>0</Flammability>

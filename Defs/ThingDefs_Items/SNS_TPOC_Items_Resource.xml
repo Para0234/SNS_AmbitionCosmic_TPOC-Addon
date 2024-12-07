@@ -1,6 +1,6 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
-	
+
 	<ThingDef ParentName="ResourceBase">
 		<thingClass>ThingWithComps</thingClass>
 		<defName>SNS_StableMatter</defName>
@@ -15,14 +15,16 @@
 		<soundInteract>Standard_Pickup</soundInteract>
 		<soundDrop>Standard_Drop</soundDrop>
 		<useHitPoints>false</useHitPoints>
-		<thingCategories><li>ResourcesRaw</li></thingCategories>
+		<thingCategories>
+			<li>ResourcesRaw</li>
+		</thingCategories>
 		<stackLimit>75</stackLimit>
 		<smallVolume>false</smallVolume>
 		<drawGUIOverlay>true</drawGUIOverlay>
 		<deepCommonality>0</deepCommonality>
 		<tickerType>Never</tickerType>
 		<comps>
-			<li Class="CompProperties_Forbiddable"/>
+			<li Class="CompProperties_Forbiddable" />
 			<li Class="CompProperties_Glower">
 				<glowRadius>2</glowRadius>
 				<glowColor>(255,0,0,0)</glowColor>
@@ -82,5 +84,5 @@
 			</statFactors>
 		</stuffProps>
 	</ThingDef>
-	
+
 </Defs>
