@@ -1,37 +1,37 @@
-<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8"?>
 <Patch>
 
-<!-- If you're looking at this file hoping to learn more about patches, you're in luck! I will leave a comment pretty much everywhere so you can understand what's going on here. -->
-<!-- Most of the comments are focused around the first PatchOperationAdd and the first PatchOperationReplace. -->
-<!-- I know it might look daunting, and it might look too complicated to bother to learn, but it's actually really simple once you understand how it works. I learned xpath in just a day myself and had a patch made and uploaded the very same day! -->
+	<!-- If you're looking at this file hoping to learn more about patches, you're in luck! I will leave a comment pretty much everywhere so you can understand what's going on here. -->
+	<!-- Most of the comments are focused around the first PatchOperationAdd and the first PatchOperationReplace. -->
+	<!-- I know it might look daunting, and it might look too complicated to bother to learn, but it's actually really simple once you understand how it works. I learned xpath in just a day myself and had a patch made and uploaded the very same day! -->
 
-<Operation Class="PatchOperationFindMod">
-    <mods>
-        <li>Elite Bionics Framework</li>
-    </mods>
-	<match Class="PatchOperationSequence">
-		<operations>
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Elite Bionics Framework</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+			<operations>
 
-			<li Class="PatchOperationAdd">
-				<xpath>/Defs/HediffDef[defName="SNS_Base_BionicHediff_GenIV"]/comps</xpath>
-				<value>
-                    <li Class="EBF.Hediffs.HediffCompProperties_MaxHPAdjust">
-                        <scaleAdjustment>99</scaleAdjustment>
-                    </li>
-				</value>
-			</li>
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/HediffDef[defName="SNS_Base_BionicHediff_GenIV"]/comps</xpath>
+					<value>
+						<li Class="EBF.Hediffs.HediffCompProperties_MaxHPAdjust">
+							<scaleAdjustment>99</scaleAdjustment>
+						</li>
+					</value>
+				</li>
 
-			<li Class="PatchOperationAdd">
-				<xpath>/Defs/HediffDef[defName="SNS_Base_BionicHediffImplant_GenIV"]/comps</xpath>
-				<value>
-                    <li Class="EBF.Hediffs.HediffCompProperties_MaxHPAdjust">
-                        <scaleAdjustment>99</scaleAdjustment>
-                    </li>
-				</value>
-			</li>
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/HediffDef[defName="SNS_Base_BionicHediffImplant_GenIV"]/comps</xpath>
+					<value>
+						<li Class="EBF.Hediffs.HediffCompProperties_MaxHPAdjust">
+							<scaleAdjustment>99</scaleAdjustment>
+						</li>
+					</value>
+				</li>
 
-		</operations>
-	</match> 
-</Operation> 
+			</operations>
+		</match>
+	</Operation>
 
 </Patch>

@@ -1,11 +1,11 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
-	
+
 	<AchievementsExpanded.AchievementDef ParentName="SNS_Achievement_Base">
 		<defName>SNS_Achievement_HediffTracker_BionicsFull_GenIV</defName>
 		<label>A Being Beyond Creation</label>
 		<description>Have a single pawn with full Generation-4 Zenith 'bionics', armor shrouds, and enchanters.</description>
-		
+
 		<tracker Class="AchievementsExpanded.MultiHediffTracker">
 			<defs>
 				<li>
@@ -74,7 +74,7 @@
 				</li>
 			</defs>
 		</tracker>
-		
+
 		<texPath>Achievements/SNS/FullBionics_Gen4</texPath>
 		<points>150</points>
 	</AchievementsExpanded.AchievementDef>

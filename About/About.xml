@@ -1,12 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
 
-<name>AOTC: True Pinnacle of Creation</name>
-<author>explodoboy</author>
-<packageId>explodoboy.SNSAmbitionCosmic.Gen4Addon</packageId>
-<url>public.FutureGadgetLab.net</url>
-<supportedVersions><li>1.5</li></supportedVersions>
-<modDependencies>
+  <name>AOTC: True Pinnacle of Creation</name>
+  <author>explodoboy</author>
+  <packageId>explodoboy.SNSAmbitionCosmic.Gen4Addon</packageId>
+  <url>public.FutureGadgetLab.net</url>
+  <supportedVersions>
+    <li>1.5</li>
+  </supportedVersions>
+  <modDependencies>
     <li>
       <packageId>explodoboy.SNSAmbitionCosmic</packageId>
       <displayName>Ambition of the Cosmic</displayName>
@@ -22,7 +24,7 @@
     <li>explodoboy.SNSAmbitionCosmic</li>
     <li>explodoboy.SNSAmbitionCosmic.RoyaltyAddon</li>
     <li>explodoboy.SNSAmbitionCosmic.TimelessSpeciesMod</li>
-	<li>CETeam.CombatExtended</li>
+    <li>CETeam.CombatExtended</li>
   </loadAfter>
-<description>This mod is an official addon for Ambition of the Cosmic that adds a fourth, hilariously overpowered generation of technologies.</description>
+  <description>This mod is an official addon for Ambition of the Cosmic that adds a fourth, hilariously overpowered generation of technologies.</description>
 </ModMetaData>

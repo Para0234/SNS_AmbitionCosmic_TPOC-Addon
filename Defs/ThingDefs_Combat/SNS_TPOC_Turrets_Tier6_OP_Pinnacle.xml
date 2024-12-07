@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8"?>
 <Defs>
 
 	<!--
@@ -31,125 +31,125 @@
 	
 	-->
 
-<!-- Bastion of Stability -->
+	<!-- Bastion of Stability -->
 
-<ThingDef ParentName="SNS_Projectile_BeholderBullet">
-	<defName>SNS_Gun_Turret_Bullet_Pinnacle</defName>
-    <label>Stable Matter projectile</label>
-</ThingDef>
+	<ThingDef ParentName="SNS_Projectile_BeholderBullet">
+		<defName>SNS_Gun_Turret_Bullet_Pinnacle</defName>
+		<label>Stable Matter projectile</label>
+	</ThingDef>
 
-<ThingDef ParentName="BaseWeaponTurret">
-	<defName>SNS_Gun_Turret_Pinnacle</defName>
-	<label>bastion gun</label>
-	<description>The gun of a Bastion of Stability</description>
-	<graphicData>
-		<texPath>Things/Building/Security/SNS/turrets/SNSGunTurretPinnacle</texPath>
-		<graphicClass>Graphic_Single</graphicClass>
-	</graphicData>
-	<statBases>
-		<AccuracyTouch>0.85</AccuracyTouch>
-		<AccuracyShort>0.85</AccuracyShort>
-		<AccuracyMedium>0.75</AccuracyMedium>
-		<AccuracyLong>0.65</AccuracyLong>
-		<RangedWeapon_Cooldown>0.1</RangedWeapon_Cooldown>
-		<DeteriorationRate>0</DeteriorationRate>
-		<Mass>1.5</Mass>
-		<Flammability>0</Flammability>
-	</statBases>
-	<verbs>
-		<li>
-			<verbClass>Verb_Shoot</verbClass>
-			<defaultProjectile>SNS_Gun_Turret_Bullet_Pinnacle</defaultProjectile>
-			<forcedMissRadius>0.1</forcedMissRadius>
-			<requireLineOfSight>false</requireLineOfSight>
-			<warmupTime>0</warmupTime>
-			<range>1500</range>
-			<ticksBetweenBurstShots>0</ticksBetweenBurstShots>
-			<burstShotCount>1</burstShotCount>
-			<soundCast>Mortar_LaunchA</soundCast>
-			<soundCastTail>GunTail_Heavy</soundCastTail>
-			<muzzleFlashScale>20</muzzleFlashScale>
-		</li>
-	</verbs>
-	<comps /> <!-- Empty comps tag for patching. -->
-</ThingDef>
+	<ThingDef ParentName="BaseWeaponTurret">
+		<defName>SNS_Gun_Turret_Pinnacle</defName>
+		<label>bastion gun</label>
+		<description>The gun of a Bastion of Stability</description>
+		<graphicData>
+			<texPath>Things/Building/Security/SNS/turrets/SNSGunTurretPinnacle</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<statBases>
+			<AccuracyTouch>0.85</AccuracyTouch>
+			<AccuracyShort>0.85</AccuracyShort>
+			<AccuracyMedium>0.75</AccuracyMedium>
+			<AccuracyLong>0.65</AccuracyLong>
+			<RangedWeapon_Cooldown>0.1</RangedWeapon_Cooldown>
+			<DeteriorationRate>0</DeteriorationRate>
+			<Mass>1.5</Mass>
+			<Flammability>0</Flammability>
+		</statBases>
+		<verbs>
+			<li>
+				<verbClass>Verb_Shoot</verbClass>
+				<defaultProjectile>SNS_Gun_Turret_Bullet_Pinnacle</defaultProjectile>
+				<forcedMissRadius>0.1</forcedMissRadius>
+				<requireLineOfSight>false</requireLineOfSight>
+				<warmupTime>0</warmupTime>
+				<range>1500</range>
+				<ticksBetweenBurstShots>0</ticksBetweenBurstShots>
+				<burstShotCount>1</burstShotCount>
+				<soundCast>Mortar_LaunchA</soundCast>
+				<soundCastTail>GunTail_Heavy</soundCastTail>
+				<muzzleFlashScale>20</muzzleFlashScale>
+			</li>
+		</verbs>
+		<comps /> <!-- Empty comps tag for patching. -->
+	</ThingDef>
 
-<ThingDef ParentName="SNS_BaseTurretBuilding">
-	<defName>SNS_Turret_Pinnacle</defName>
-	<label>Bastion of Stability</label>
-	<description>The ultimate defensive weapon, the Bastion of Stability can lay waste to any incoming hostiles with ease all by itself. Its only vulnerabilities is that it cannot hit anything beneath a mountain and something too close can cause it to hit itself.</description>
-	<thingClass>Building_TurretGun</thingClass>
-	<graphicData>
-		<texPath>Things/Building/Security/SNS/bases/SNSTurretBaseHeavy</texPath>
-		<graphicClass>Graphic_Single</graphicClass>
-		<drawSize>(2.5,2.5)</drawSize>	
-		
-		<damageData>
-			<rect>(0.2,0.2,0.6,0.6)</rect>
-		</damageData>
-		
-		<shadowData>
-			<volume>(0.27,0.25,0.27)</volume>
-			<offset>(0,0,0)</offset>
-		</shadowData>
-	</graphicData>
-	
-	<uiIconPath>Things/Building/Security/SNS/icons/SNSBuildingIcon_17PinnacleTurret</uiIconPath>
-	<uiIconScale>0.90</uiIconScale>
-	<altitudeLayer>Building</altitudeLayer>
-	<stealable>false</stealable>
-	<rotatable>false</rotatable>
-	
-	<size>3,3</size>
-	<statBases>
-		<MaxHitPoints>1000000</MaxHitPoints>
-		<Flammability>0</Flammability>
-		<WorkToBuild>50000</WorkToBuild>
-		<Mass>1.5</Mass>
-		<Beauty>1000</Beauty>
-		<ShootingAccuracyTurret>1</ShootingAccuracyTurret>
-	</statBases>
-	
-	<tickerType>Normal</tickerType>
-	
-	<comps>
-		<li Class="CompProperties_Forbiddable"/>
-		<li Class="CompProperties_Power">
-			<compClass>CompPowerTrader</compClass>
-			<basePowerConsumption>1500000</basePowerConsumption>
-		</li>
-		<li Class="CompProperties_Flickable"/>
-	</comps>
-	
-	<passability>PassThroughOnly</passability>
-	<pathCost>150</pathCost>
-	<fillPercent>0.4</fillPercent>
-	<hasTooltip>true</hasTooltip>
-	
-	<costList>
-		<SNS_Eternium>500</SNS_Eternium>
-		<SNS_StableMatter>150</SNS_StableMatter>
-	</costList>
-	
-	<terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
-	<designationCategory>Security</designationCategory>
-	<constructionSkillPrerequisite>12</constructionSkillPrerequisite>
-	
-	<building>
-		<combatPower>1000000</combatPower>
-		<ai_combatDangerous>false</ai_combatDangerous>
-		<turretGunDef>SNS_Gun_Turret_Pinnacle</turretGunDef>
-		<turretBurstCooldownTime>0.1</turretBurstCooldownTime>
-	</building>
-	
-	<placeWorkers>
-		<li>PlaceWorker_TurretTop</li>
-		<li>PlaceWorker_ShowTurretRadius</li>
-	</placeWorkers>
-	
-    <researchPrerequisites>
-      <li>SNS_Research_VII</li>
-    </researchPrerequisites>
-</ThingDef>
+	<ThingDef ParentName="SNS_BaseTurretBuilding">
+		<defName>SNS_Turret_Pinnacle</defName>
+		<label>Bastion of Stability</label>
+		<description>The ultimate defensive weapon, the Bastion of Stability can lay waste to any incoming hostiles with ease all by itself. Its only vulnerabilities is that it cannot hit anything beneath a mountain and something too close can cause it to hit itself.</description>
+		<thingClass>Building_TurretGun</thingClass>
+		<graphicData>
+			<texPath>Things/Building/Security/SNS/bases/SNSTurretBaseHeavy</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(2.5,2.5)</drawSize>
+
+			<damageData>
+				<rect>(0.2,0.2,0.6,0.6)</rect>
+			</damageData>
+
+			<shadowData>
+				<volume>(0.27,0.25,0.27)</volume>
+				<offset>(0,0,0)</offset>
+			</shadowData>
+		</graphicData>
+
+		<uiIconPath>Things/Building/Security/SNS/icons/SNSBuildingIcon_17PinnacleTurret</uiIconPath>
+		<uiIconScale>0.90</uiIconScale>
+		<altitudeLayer>Building</altitudeLayer>
+		<stealable>false</stealable>
+		<rotatable>false</rotatable>
+
+		<size>3,3</size>
+		<statBases>
+			<MaxHitPoints>1000000</MaxHitPoints>
+			<Flammability>0</Flammability>
+			<WorkToBuild>50000</WorkToBuild>
+			<Mass>1.5</Mass>
+			<Beauty>1000</Beauty>
+			<ShootingAccuracyTurret>1</ShootingAccuracyTurret>
+		</statBases>
+
+		<tickerType>Normal</tickerType>
+
+		<comps>
+			<li Class="CompProperties_Forbiddable" />
+			<li Class="CompProperties_Power">
+				<compClass>CompPowerTrader</compClass>
+				<basePowerConsumption>1500000</basePowerConsumption>
+			</li>
+			<li Class="CompProperties_Flickable" />
+		</comps>
+
+		<passability>PassThroughOnly</passability>
+		<pathCost>150</pathCost>
+		<fillPercent>0.4</fillPercent>
+		<hasTooltip>true</hasTooltip>
+
+		<costList>
+			<SNS_Eternium>500</SNS_Eternium>
+			<SNS_StableMatter>150</SNS_StableMatter>
+		</costList>
+
+		<terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+		<designationCategory>Security</designationCategory>
+		<constructionSkillPrerequisite>12</constructionSkillPrerequisite>
+
+		<building>
+			<combatPower>1000000</combatPower>
+			<ai_combatDangerous>false</ai_combatDangerous>
+			<turretGunDef>SNS_Gun_Turret_Pinnacle</turretGunDef>
+			<turretBurstCooldownTime>0.1</turretBurstCooldownTime>
+		</building>
+
+		<placeWorkers>
+			<li>PlaceWorker_TurretTop</li>
+			<li>PlaceWorker_ShowTurretRadius</li>
+		</placeWorkers>
+
+		<researchPrerequisites>
+			<li>SNS_Research_VII</li>
+		</researchPrerequisites>
+	</ThingDef>
 
 </Defs>

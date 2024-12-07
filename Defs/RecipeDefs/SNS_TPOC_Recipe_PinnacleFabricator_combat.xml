@@ -6,7 +6,9 @@
 		<label>Pattern The B.E.H.O.L.D.E.R.</label>
 		<workAmount>15000</workAmount>
 		<description>Pattern The B.E.H.O.L.D.E.R. from nothingness.</description>
-		<products><SNS_BeholderGun>1</SNS_BeholderGun></products>
+		<products>
+			<SNS_BeholderGun>1</SNS_BeholderGun>
+		</products>
 	</RecipeDef>
 
 	<RecipeDef ParentName="SNS_PinnacleFabricator_Item">
@@ -14,7 +16,9 @@
 		<label>Pattern The T.E.R.M.I.N.U.S.</label>
 		<workAmount>15000</workAmount>
 		<description>Pattern The T.E.R.M.I.N.U.S. from nothingness.</description>
-		<products><SNS_TerminusGun>1</SNS_TerminusGun></products>
+		<products>
+			<SNS_TerminusGun>1</SNS_TerminusGun>
+		</products>
 	</RecipeDef>
 
 	<RecipeDef ParentName="SNS_PinnacleFabricator_Item">
@@ -22,7 +26,9 @@
 		<label>Pattern The R.E.C.U.R.S.I.O.N.</label>
 		<workAmount>15000</workAmount>
 		<description>Pattern The R.E.C.U.R.S.I.O.N. from nothingness.</description>
-		<products><SNS_RecursionMelee>1</SNS_RecursionMelee></products>
+		<products>
+			<SNS_RecursionMelee>1</SNS_RecursionMelee>
+		</products>
 	</RecipeDef>
 
 	<RecipeDef ParentName="SNS_PinnacleFabricator_Item">
@@ -30,7 +36,9 @@
 		<label>Pattern Cycle Alpha Helmet</label>
 		<workAmount>4000</workAmount>
 		<description>Pattern a Cycle Alpha Helmet from nothingness.</description>
-		<products><SNS_Apparel_FirstCycleHelmet>1</SNS_Apparel_FirstCycleHelmet></products>
+		<products>
+			<SNS_Apparel_FirstCycleHelmet>1</SNS_Apparel_FirstCycleHelmet>
+		</products>
 	</RecipeDef>
 
 	<RecipeDef ParentName="SNS_PinnacleFabricator_Item">
@@ -38,7 +46,9 @@
 		<label>Pattern Cycle Alpha Armor</label>
 		<workAmount>12000</workAmount>
 		<description>Pattern a set of Cycle Alpha Armor from nothingness.</description>
-		<products><SNS_Apparel_FirstCycleArmor>1</SNS_Apparel_FirstCycleArmor></products>
+		<products>
+			<SNS_Apparel_FirstCycleArmor>1</SNS_Apparel_FirstCycleArmor>
+		</products>
 	</RecipeDef>
 
 </Defs>

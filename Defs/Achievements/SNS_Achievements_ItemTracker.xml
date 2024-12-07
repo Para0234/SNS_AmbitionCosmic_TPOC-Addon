@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
 
 	<!-- Stable Matter -->
@@ -6,12 +6,12 @@
 		<defName>SNS_Achievement_CraftCount_StableMatter_I</defName>
 		<label>It Bends To Nothing...</label>
 		<description>Draw Stable Matter in the Utopia Device.</description>
-		
+
 		<tracker Class="AchievementsExpanded.ItemCraftTracker">
 			<def>SNS_StableMatter</def>
 			<count>75</count>
 		</tracker>
-		
+
 		<texPath>Achievements/SNS/StableMatterCraft</texPath>
 		<points>50</points>
 	</AchievementsExpanded.AchievementDef>
@@ -20,12 +20,12 @@
 		<defName>SNS_Achievement_ItemCount_StableMatter_I</defName>
 		<label>A Taste Of Creation</label>
 		<description>Obtain any amount of Stable Matter by any means.</description>
-		
+
 		<tracker Class="AchievementsExpanded.ItemTracker">
 			<def>SNS_StableMatter</def>
 			<count>1</count>
 		</tracker>
-		
+
 		<texPath>Achievements/SNS/StableMatterA</texPath>
 		<points>10</points>
 	</AchievementsExpanded.AchievementDef>
@@ -34,12 +34,12 @@
 		<defName>SNS_Achievement_ItemCount_StableMatter_II</defName>
 		<label>We Could Make A Pillar</label>
 		<description>Stockpile a thousand units of Stable Matter by any means.</description>
-		
+
 		<tracker Class="AchievementsExpanded.ItemTracker">
 			<def>SNS_StableMatter</def>
 			<count>1000</count>
 		</tracker>
-		
+
 		<texPath>Achievements/SNS/StableMatterB</texPath>
 		<points>20</points>
 	</AchievementsExpanded.AchievementDef>
@@ -48,12 +48,12 @@
 		<defName>SNS_Achievement_ItemCount_StableMatter_III</defName>
 		<label>...But Your Own Will</label>
 		<description>Stockpile ten-thousand units of Stable Matter by any means.</description>
-		
+
 		<tracker Class="AchievementsExpanded.ItemTracker">
 			<def>SNS_StableMatter</def>
 			<count>10000</count>
 		</tracker>
-		
+
 		<texPath>Achievements/SNS/StableMatterC</texPath>
 		<points>75</points>
 	</AchievementsExpanded.AchievementDef>
@@ -65,72 +65,72 @@
 		<defName>SNS_Achievement_CraftCount_Gen4_TerminusGun</defName>
 		<label>You Go To Hell Before You Die</label>
 		<description>Craft The T.E.R.M.I.N.U.S.</description>
-		
+
 		<tracker Class="AchievementsExpanded.ItemCraftTracker">
 			<def>SNS_TerminusGun</def>
 			<count>1</count>
 		</tracker>
-		
+
 		<texPath>Achievements/SNS/Terminus</texPath>
 		<points>50</points>
 	</AchievementsExpanded.AchievementDef>
-	
+
 	<AchievementsExpanded.AchievementDef ParentName="SNS_Achievement_Base">
 		<defName>SNS_Achievement_CraftCount_Gen4_BeholderGun</defName>
 		<label>I Am Entropy, Destroyer Of Creation</label>
 		<description>Craft The B.E.H.O.L.D.E.R.</description>
-		
+
 		<tracker Class="AchievementsExpanded.ItemCraftTracker">
 			<def>SNS_BeholderGun</def>
 			<count>1</count>
 		</tracker>
-		
+
 		<texPath>Achievements/SNS/Beholder</texPath>
 		<points>50</points>
 	</AchievementsExpanded.AchievementDef>
-	
+
 	<AchievementsExpanded.AchievementDef ParentName="SNS_Achievement_Base">
 		<defName>SNS_Achievement_CraftCount_Gen4_TerminusMelee</defName>
 		<label>Moving Outside The Reaches Of Time</label>
 		<description>Craft The R.E.C.U.R.S.I.O.N.</description>
-		
+
 		<tracker Class="AchievementsExpanded.ItemCraftTracker">
 			<def>SNS_RecursionMelee</def>
 			<count>1</count>
 		</tracker>
-		
+
 		<texPath>Achievements/SNS/RECURSION</texPath>
 		<points>50</points>
 	</AchievementsExpanded.AchievementDef>
-	
+
 	<!-- Armor -->
 	<!-- Quality -->
 	<AchievementsExpanded.AchievementDef ParentName="SNS_Achievement_Base">
 		<defName>SNS_Achievement_CraftCount_Gen4_Helmet</defName>
 		<label>Nothing Will Break You</label>
 		<description>Craft a Cycle Alpha Helmet.</description>
-		
+
 		<tracker Class="AchievementsExpanded.ItemCraftTracker">
 			<def>SNS_Apparel_FirstCycleHelmet</def>
 			<count>1</count>
 		</tracker>
-		
+
 		<texPath>Achievements/SNS/FirstCycleHelmet</texPath>
 		<points>50</points>
 	</AchievementsExpanded.AchievementDef>
-	
+
 	<AchievementsExpanded.AchievementDef ParentName="SNS_Achievement_Base">
 		<defName>SNS_Achievement_CraftCount_Gen4_Armor</defName>
 		<label>For We Believe Ourselves Grand</label>
 		<description>Craft a set of Cycle Alpha Armor.</description>
-		
+
 		<tracker Class="AchievementsExpanded.ItemCraftTracker">
 			<def>SNS_Apparel_FirstCycleArmor</def>
 			<count>1</count>
 		</tracker>
-		
+
 		<texPath>Achievements/SNS/FirstCycleArmor</texPath>
 		<points>50</points>
 	</AchievementsExpanded.AchievementDef>
-	
+
 </Defs>
