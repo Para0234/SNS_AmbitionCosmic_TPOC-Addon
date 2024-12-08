@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Defs>
-
+<!--First Cycle Helmet-->
   <ThingDef Name="FirstCycleHelmetBase" ParentName="ApparelBase">
     <techLevel>Archotech</techLevel>
     <useHitPoints>false</useHitPoints>
@@ -24,6 +24,30 @@
       <Insulation_Cold>10000</Insulation_Cold>
       <Insulation_Heat>10000</Insulation_Heat>
     </statBases>
+    <equippedStatOffsets>
+    <ShootingAccuracyPawn>10</ShootingAccuracyPawn>
+    <AimingDelayFactor>-0.5</AimingDelayFactor>
+    <RangedCooldownFactor>-0.5</RangedCooldownFactor>
+    <MeleeHitChance>0.5</MeleeHitChance>
+    <MeleeDodgeChance>0.25</MeleeDodgeChance>
+    <ToxicResistance>1</ToxicResistance>
+    <PsychicSensitivity>3</PsychicSensitivity>
+    <MentalBreakThreshold>-2</MentalBreakThreshold>
+    <PsychicEntropyRecoveryRate>10</PsychicEntropyRecoveryRate>
+    <PsychicEntropyMax>2000</PsychicEntropyMax>
+    <SubcoreEncodingSpeed>3</SubcoreEncodingSpeed>
+    <MechRepairSpeed>1</MechRepairSpeed>
+    <MechControlGroups>9</MechControlGroups>
+    <MechRemoteShieldEnergy>250</MechRemoteShieldEnergy>
+    <MechBandwidth>60</MechBandwidth>
+    <WorkSpeedGlobalOffsetMech>4</WorkSpeedGlobalOffsetMech>
+    <EatingSpeed>1</EatingSpeed>
+    <FilthRate>-0.5</FilthRate> <!--brainwashes you to clean up after yourself-->
+    <RestFallRateFactor>-0.5</RestFallRateFactor> <!--NO SLEEP TILL BROOKLYN!-->
+    <WorkSpeedGlobal>1</WorkSpeedGlobal>
+    <ButcheryMechanoidEfficiency>1</ButcheryMechanoidEfficiency>
+    <ConstructSuccessChance>1</ConstructSuccessChance>
+    </equippedStatOffsets>
     <thingCategories>
       <li>ApparelArmor</li>
     </thingCategories>
@@ -45,7 +69,7 @@
     </apparel>
     <smeltable>false</smeltable>
   </ThingDef>
-
+<!--First Cycle Armor-->
   <ThingDef ParentName="ApparelBase">
     <defName>SNS_Apparel_FirstCycleArmor</defName>
     <label>Cycle Alpha Armor</label>
@@ -79,7 +103,29 @@
       </li>
     </comps>
     <equippedStatOffsets>
-      <MoveSpeed>20</MoveSpeed> <!-- You can run, you can run, but I'll always catch up. -->
+    <ShootingAccuracyPawn>10</ShootingAccuracyPawn>
+    <AimingDelayFactor>-0.5</AimingDelayFactor>
+    <RangedCooldownFactor>-0.5</RangedCooldownFactor>
+    <MeleeDodgeChance>0.25</MeleeDodgeChance>
+    <MeleeHitChance>0.5</MeleeHitChance>
+    <ToxicResistance>1</ToxicResistance>
+    <MoveSpeed>20</MoveSpeed> <!-- You can run, you can run, but I'll always catch up. -->
+    <MeleeCooldownFactor>-1</MeleeCooldownFactor>
+    <MeleeDamageFactor>1</MeleeDamageFactor>
+    <StaggerDurationFactor>-1</StaggerDurationFactor>
+    <CarryingCapacity>500</CarryingCapacity> <!--Probably doesn't work.-->
+    <PsychicSensitivity>1</PsychicSensitivity>
+    <SubcoreEncodingSpeed>1</SubcoreEncodingSpeed>
+    <MechRepairSpeed>3</MechRepairSpeed>
+    <MechControlGroups>3</MechControlGroups>
+    <MechRemoteShieldEnergy>250</MechRemoteShieldEnergy>
+    <MechBandwidth>20</MechBandwidth>
+    <MechFormingSpeed>4</MechFormingSpeed>
+    <EatingSpeed>1</EatingSpeed>
+    <FilthRate>-1.5</FilthRate>
+    <RestFallRateFactor>-0.5</RestFallRateFactor>
+    <WorkSpeedGlobal>2</WorkSpeedGlobal>
+    <ConstructSuccessChance>1</ConstructSuccessChance>
     </equippedStatOffsets>
     <thingCategories>
       <li>ApparelArmor</li>
