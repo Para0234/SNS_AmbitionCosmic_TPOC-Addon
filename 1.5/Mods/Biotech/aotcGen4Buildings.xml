@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+    <ThingDef ParentName="BuildingBase">
+        <defName>AOTC_Gen4GeneProcessor</defName>
+        <label>Gene processor</label>
+        <description>Due to the wondrous properties of Eternium, this gene processor abandons qubits entirely, instead opting to use qudits as its basic unit for processing.</description>
+        <passability>PassThroughOnly</passability>
+        <fillPercent>0.4</fillPercent>
+        <pathCost>14</pathCost>
+        <rotatable>false</rotatable>
+        <graphicData>
+            <texPath>Dev/placeholderTexture</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+            <drawSize>(2, 2)</drawSize>
+            <shadowData>
+                <volume>(1.5, 0.4, 1.5)</volume>
+            </shadowData>
+        </graphicData>
+        <size>(2, 2)</size>
+        <canOverlapZones>false</canOverlapZones>
+        <defaultPlacingRot>North</defaultPlacingRot>
+        <designationCategory>Biotech</designationCategory>
+        <uiOrder>9321</uiOrder>
+        <researchPrerequisites>
+            <li>AOTC_GeneProcessorII_Research</li>
+        </researchPrerequisites>
+        <descriptionHyperlinks>
+            <ThingDef>GeneAssembler</ThingDef>
+            <ThingDef>GeneBank</ThingDef>
+            <ThingDef>Genepack</ThingDef>
+            <ThingDef>Xenogerm</ThingDef>
+        </descriptionHyperlinks>
+        <statBases>
+            <MaxHitPoints>100000</MaxHitPoints>
+            <WorkToBuild>40000</WorkToBuild>
+            <Mass>5</Mass>
+            <Flammability>0</Flammability>
+            <GeneticComplexityIncrease>75</GeneticComplexityIncrease>
+        </statBases>
+        <costList>
+            <SNS_Eternium>500</SNS_Eternium>
+            <SNS_Component_GenIII>50</SNS_Component_GenIII>
+        </costList>
+        <constructionSkillPrerequisite>20</constructionSkillPrerequisite>
+        <building>
+            <buildingTags>
+                <li>Biotech</li>
+            </buildingTags>
+        </building>
+        <placeWorkers>
+            <li>PlaceWorker_ShowFacilitiesConnections</li>
+        </placeWorkers>
+        <drawPlaceWorkersWhileSelected>true</drawPlaceWorkersWhileSelected>
+        <comps>
+            <li Class="CompProperties_Power">
+                <compClass>CompPowerTrader</compClass>
+                <basePowerConsumption>5000</basePowerConsumption>
+            </li>
+            <li Class="CompProperties_Flickable" />
+            <li Class="CompProperties_InspectString">
+                <compClass>CompInspectStringGeneProcessor</compClass>
+                <inspectString>Gene complexity increase</inspectString>
+            </li>
+            <li Class="CompProperties_Facility">
+                <maxSimultaneous>10000</maxSimultaneous>
+                <maxDistance>100</maxDistance>
+                <showMaxSimultaneous>false</showMaxSimultaneous>
+            </li>
+        </comps>
+    </ThingDef>
+</Defs>
