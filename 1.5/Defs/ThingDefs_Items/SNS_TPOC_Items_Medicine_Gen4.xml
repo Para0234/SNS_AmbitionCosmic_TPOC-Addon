@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <ThingDef ParentName="MedicineBase">
+    <defName>SNS_Medicine_Pinnacle</defName>
+    <label>Gift of Eternity</label>
+    <description>A kit full of nothing but Eternium and Eternium tools, able to quite literally change shape to one's own intentions and will. The Eternium within can do virtually any medical task, and without flaw. Even one who had never even thought about anything remotely medical in their life before can truly excel with the Gift of Eternity.\n\nIt is truly the ultimate medicine, the zenith of our love.</description>
+    <graphicData>
+      <texPath>Things/Item/Resource/SNS/MedicineGen4/MedicineGen4</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+      <drawSize>0.85</drawSize>
+    </graphicData>
+    <techLevel>Archotech</techLevel>
+    <useHitPoints>false</useHitPoints>
+    <comps>
+      <li Class="CompProperties_Forbiddable" />
+      <li Class="CompProperties_Glower">
+        <glowRadius>2</glowRadius>
+        <glowColor>(13,521,255,0)</glowColor>
+      </li>
+    </comps>
+    <statBases>
+      <MarketValue>42000</MarketValue>
+      <Mass>0.01</Mass>
+      <Flammability>0</Flammability>
+      <MedicalPotency>100.0</MedicalPotency>
+      <MedicalQualityMax>100.0</MedicalQualityMax>
+      <DeteriorationRate>0</DeteriorationRate>
+    </statBases>
+  </ThingDef>
+
+</Defs>
