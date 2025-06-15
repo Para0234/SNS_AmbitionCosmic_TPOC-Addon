@@ -43,7 +43,7 @@
 		<label>bastion gun</label>
 		<description>The gun of a Bastion of Stability</description>
 		<graphicData>
-			<texPath>Things/Building/Security/SNS/turrets/SNSGunTurretPinnacle</texPath>
+			<texPath>Textures/Textures/Things/Building/Security/SNS/turrets/SNSGunTurretPinnacle</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<statBases>
@@ -80,7 +80,7 @@
 		<description>The ultimate defensive weapon, the Bastion of Stability can lay waste to any incoming hostiles with ease all by itself. Its only vulnerabilities is that it cannot hit anything beneath a mountain and something too close can cause it to hit itself.</description>
 		<thingClass>Building_TurretGun</thingClass>
 		<graphicData>
-			<texPath>Things/Building/Security/SNS/bases/SNSTurretBaseHeavy</texPath>
+			<texPath>Textures/Things/Building/Security/SNS/bases/SNSTurretBaseHeavy</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<drawSize>(2.5,2.5)</drawSize>
 
@@ -94,7 +94,7 @@
 			</shadowData>
 		</graphicData>
 
-		<uiIconPath>Things/Building/Security/SNS/icons/SNSBuildingIcon_17PinnacleTurret</uiIconPath>
+		<uiIconPath>Textures/Things/Building/Security/SNS/icons/SNSBuildingIcon_17PinnacleTurret</uiIconPath>
 		<uiIconScale>0.90</uiIconScale>
 		<altitudeLayer>Building</altitudeLayer>
 		<stealable>false</stealable>

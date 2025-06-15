@@ -5,7 +5,7 @@
     <techLevel>Archotech</techLevel>
     <useHitPoints>false</useHitPoints>
     <graphicData>
-      <texPath>Things/Pawn/Humanlike/Apparel/FirstCycleHelmet/FirstCycleHelmet</texPath>
+      <texPath>Textures/Things/Pawn/Humanlike/Apparel/FirstCycleHelmet/FirstCycleHelmet</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <uiIconScale>1.25</uiIconScale>
@@ -56,7 +56,7 @@
       <bodyPartGroups>
         <li>FullHead</li>
       </bodyPartGroups>
-      <wornGraphicPath>Things/Pawn/Humanlike/Apparel/FirstCycleHelmet/FirstCycleHelmet</wornGraphicPath>
+      <wornGraphicPath>Textures/Things/Pawn/Humanlike/Apparel/FirstCycleHelmet/FirstCycleHelmet</wornGraphicPath>
       <layers>
         <li>Overhead</li>
       </layers>
@@ -77,7 +77,7 @@
     <techLevel>Archotech</techLevel>
     <useHitPoints>false</useHitPoints>
     <graphicData>
-      <texPath>Things/Pawn/Humanlike/Apparel/FirstCycleArmor/FirstCycleArmor</texPath>
+      <texPath>Textures/Things/Pawn/Humanlike/Apparel/FirstCycleArmor/FirstCycleArmor</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <tickerType>Normal</tickerType>
@@ -146,7 +146,7 @@
         <li>Legs</li>
         <li>Feet</li>
       </bodyPartGroups>
-      <wornGraphicPath>Things/Pawn/Humanlike/Apparel/FirstCycleArmor/FirstCycleArmor</wornGraphicPath>
+      <wornGraphicPath>Textures/Things/Pawn/Humanlike/Apparel/FirstCycleArmor/FirstCycleArmor</wornGraphicPath>
       <layers>
         <li>Middle</li>
         <li>Belt</li>

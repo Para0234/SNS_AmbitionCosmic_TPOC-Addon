@@ -5,7 +5,7 @@
 		<defName>SNS_TerminusGun_Projectile</defName>
 		<label>T.E.R.M.I.N.U.S Projectile</label>
 		<graphicData>
-			<texPath>Things/Projectile/SNS/Gen4/Bullet_Terminus</texPath>
+			<texPath>Textures/Things/Projectile/SNS/Gen4/Bullet_Terminus</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<projectile>
@@ -19,7 +19,7 @@
 		<label>The T.E.R.M.I.N.U.S.</label>
 		<description>Acronym: Telepathically-Exterminating Rifle of Mental Incineration via Umbral-loop Suspension\n\nA weapon of pure horror, it uses an energy extremely similar to that associated with psychic phenomina to absolutely obliterate whatever its projectiles touch, while also firing at a rate so high most cannot even comprehend it. None knows what truly happens when somebody dies to a T.E.R.M.I.N.U.S. projectile, but it's believed that it's truly a fate far, far worse than death.\n\nThe T.E.R.M.I.N.U.S is unique in that it does not need line-of-sight to aim, but T.E.R.M.I.N.U.S. projectiles do NOT go over walls, so if you're shooting at something behind a wall you're going to shoot that wall to pieces before you hit your target. Take care when aiming.</description>
 		<graphicData>
-			<texPath>Things/Item/Equipment/WeaponRanged/SNS/Gen4/Terminus</texPath>
+			<texPath>Textures/Things/Item/Equipment/WeaponRanged/SNS/Gen4/Terminus</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<soundInteract>Interact_ChargeRifle</soundInteract>
@@ -62,7 +62,7 @@
 		<defName>SNS_Beholder_Bullet</defName>
 		<label>B.E.H.O.L.D.E.R Projectile</label>
 		<graphicData>
-			<texPath>Things/Projectile/SNS/Gen4/Bullet_Beholder</texPath>
+			<texPath>Textures/Things/Projectile/SNS/Gen4/Bullet_Beholder</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<thingClass>Projectile_Explosive</thingClass>
@@ -83,7 +83,7 @@
 		<label>The B.E.H.O.L.D.E.R.</label>
 		<description>Acronym: Baryon-Entropy Hard-driver Omni-Looping Decimator EXARCH Rifle\n\nA weapon charged with Stable Matter, made like its predecessor the EXARCH. The weapon itself is incredibly advanced, able to lob projectiles over walls with great accuracy, just like a mortar.</description>
 		<graphicData>
-			<texPath>Things/Item/Equipment/WeaponRanged/SNS/Gen4/Beholder</texPath>
+			<texPath>Textures/Things/Item/Equipment/WeaponRanged/SNS/Gen4/Beholder</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<soundInteract>Interact_Rifle</soundInteract>

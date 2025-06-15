@@ -6,7 +6,7 @@
     <label>The R.E.C.U.R.S.I.O.N.</label>
     <description>Acronym: Recursion-based Exterminatus Cutting-device Using Recursive-temporal Strikes in Omni-Nullspace\n\nA terrifying weapon that bends the very flow of time, allowing one to strike with extreme speed even without having to put in any additional effort. Reality itself seems to coil around its user, striking with it.</description>
     <graphicData>
-      <texPath>Things/Item/Equipment/WeaponMelee/SNS/Gen4/RECURSION/RECURSION</texPath>
+      <texPath>Textures/Things/Item/Equipment/WeaponMelee/SNS/Gen4/RECURSION/RECURSION</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <uiIconScale>1.1</uiIconScale>
