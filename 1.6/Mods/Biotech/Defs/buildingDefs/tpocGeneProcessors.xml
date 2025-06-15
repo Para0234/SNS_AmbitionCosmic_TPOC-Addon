@@ -9,7 +9,7 @@
     <pathCost>14</pathCost>
     <rotatable>false</rotatable>
     <graphicData>
-      <texPath>Textures/Things/Building/Biotech/GeneProcessor4/GeneProcessor4</texPath>
+      <texPath>Things/Building/Biotech/GeneProcessor4/GeneProcessor4</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>(2, 2)</drawSize>
       <shadowData>

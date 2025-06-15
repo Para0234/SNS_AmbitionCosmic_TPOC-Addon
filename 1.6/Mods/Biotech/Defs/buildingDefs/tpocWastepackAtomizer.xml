@@ -8,7 +8,7 @@
         <drawerType>MapMeshAndRealTime</drawerType>
         <tickerType>Normal</tickerType>
         <graphicData>
-                <texPath>Textures/Things/Building/Biotech/StableWastepackAtomizer/StableWastepackAtomizer</texPath>
+                <texPath>Things/Building/Biotech/StableWastepackAtomizer/StableWastepackAtomizer</texPath>
             <graphicClass>Graphic_Multi</graphicClass>
             <drawSize>(3,2)</drawSize>
             <shadowData>
@@ -27,12 +27,12 @@
             </buildingTags>
             <ai_chillDestination>false</ai_chillDestination>
             <wastepackAtomizerBottomGraphic>
-                <texPath>Textures/Things/Building/Biotech/StableWastepackAtomizer/StableWastepackAtomizer_BottomLayer</texPath>
+                <texPath>Things/Building/Biotech/StableWastepackAtomizer/StableWastepackAtomizer_BottomLayer</texPath>
                 <graphicClass>Graphic_Multi</graphicClass>
                 <drawSize>(3,2)</drawSize>
             </wastepackAtomizerBottomGraphic>
             <wastepackAtomizerWindowGraphic>
-                <texPath>Textures/Things/Building/Biotech/WastepackAtomizer/WastepackAtomizerWindow</texPath>
+                <texPath>Things/Building/Biotech/WastepackAtomizer/WastepackAtomizerWindow</texPath>
                 <graphicClass>Graphic_Multi</graphicClass>
                 <drawSize>(3,2)</drawSize>
             </wastepackAtomizerWindowGraphic>

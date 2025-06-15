@@ -6,7 +6,7 @@
     <label>Gift of Eternity</label>
     <description>A kit full of nothing but Eternium and Eternium tools, able to quite literally change shape to one's own intentions and will. The Eternium within can do virtually any medical task, and without flaw. Even one who had never even thought about anything remotely medical in their life before can truly excel with the Gift of Eternity.\n\nIt is truly the ultimate medicine, the zenith of our love.</description>
     <graphicData>
-      <texPath>Textures/Things/Item/Resource/SNS/MedicineGen4/MedicineGen4</texPath>
+      <texPath>Things/Item/Resource/SNS/MedicineGen4/MedicineGen4</texPath>
       <graphicClass>Graphic_StackCount</graphicClass>
       <drawSize>0.85</drawSize>
     </graphicData>

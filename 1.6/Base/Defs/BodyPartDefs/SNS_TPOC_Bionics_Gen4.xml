@@ -6,7 +6,7 @@
 		<defName>SNS_Base_BionicBodyPart_GenIV</defName>
 		<techLevel>Archotech</techLevel>
 		<graphicData>
-			<texPath>Textures/Things/Item/Health/HealthItem</texPath>
+			<texPath>Things/Item/Health/HealthItem</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<drawSize>0.80</drawSize>
 			<color>(0,178,255)</color>

@@ -7,7 +7,7 @@
 		<label>Stable Matter</label>
 		<description>Stable Matter is a strange material that simply does not adhere to physics at all. It is not only immune to entropy, but in fact utterly incapable of interacting with entropy as a whole. As a consequence, time does not even remotely exist to Stable Matter, nor can it even theoretically. It is still able to interact with matter in various ways, however, including reflecting red light. It's truly a paradox, being something that can't be interacted with by anything in the universe BUT can interact with anything in said universe without compromising itself at all.\n\nTLDR; Time doesn't exist to Stable Matter therefore it's invincible, but still exists. You probably have Eternium so you can change its shape.</description>
 		<graphicData>
-			<texPath>Textures/Textures/Things/Item/Resource/SNS/StableMatter/StableMatter</texPath>
+			<texPath>Things/Item/Resource/SNS/StableMatter/StableMatter</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<resourceReadoutAlwaysShow>true</resourceReadoutAlwaysShow>
