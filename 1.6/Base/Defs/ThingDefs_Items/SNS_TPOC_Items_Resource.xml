@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	<ThingDef ParentName="ResourceBase">
+		<thingClass>ThingWithComps</thingClass>
+		<defName>SNS_StableMatter</defName>
+		<label>Stable Matter</label>
+		<description>Stable Matter is a strange material that simply does not adhere to physics as we know them. It is not only immune to entropy, but is also incapable of interacting with time itself. Despite being completely unaffected by time, it is somehow able to be moved, and can be shaped with Eternium tools, despite both these actions requiring causality. It is theorized that this is because any "edit" to the state of Stable Matter retroactively always was, and because it always was and always will be in the given space, it can take no damage. \n\n Perhaps a more interesting conundrum, is its red glow. Given that Stable Matter exists outside of time, the fact that it glows means it is actively releasing photons, which requires would require a source, due to the Law of Conservation of Energy. However, an Extra-Temporal object releasing Temporally affected photons omplies the creation of new photons from nothing.\n\n In other words...it creates energy from nothing. Stable Matter should not exist, but does anyways. It is a true Paradox. \n\nTLDR; Stable Matter exists outside of time, which means it cannot be damaged, but still is tangible. Eternium can change its shape, and any changes, always have been. It also produces infinite energy somehow.</description>
+		<graphicData>
+			<texPath>Things/Item/Resource/SNS/StableMatter/StableMatter</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<resourceReadoutAlwaysShow>true</resourceReadoutAlwaysShow>
+		<resourceReadoutPriority>First</resourceReadoutPriority>
+		<soundInteract>Standard_Pickup</soundInteract>
+		<soundDrop>Standard_Drop</soundDrop>
+		<useHitPoints>false</useHitPoints>
+		<thingCategories>
+			<li>ResourcesRaw</li>
+		</thingCategories>
+		<stackLimit>75</stackLimit>
+		<smallVolume>false</smallVolume>
+		<drawGUIOverlay>true</drawGUIOverlay>
+		<deepCommonality>0</deepCommonality>
+		<tickerType>Never</tickerType>
+		<comps>
+			<li Class="CompProperties_Forbiddable" />
+			<li Class="CompProperties_Glower">
+				<glowRadius>2</glowRadius>
+				<glowColor>(255,0,0,0)</glowColor>
+			</li>
+		</comps>
+		<statBases>
+			<MarketValue>5000</MarketValue>
+			<MaxHitPoints>5000000</MaxHitPoints>
+			<Mass>0.01</Mass>
+			<Flammability>0.0</Flammability>
+			<DeteriorationRate>0.0</DeteriorationRate>
+			<StuffPower_Armor_Sharp>100</StuffPower_Armor_Sharp>
+			<StuffPower_Armor_Blunt>100</StuffPower_Armor_Blunt>
+			<StuffPower_Armor_Heat>100</StuffPower_Armor_Heat>
+			<StuffPower_Insulation_Cold>500</StuffPower_Insulation_Cold>
+			<StuffPower_Insulation_Heat>500</StuffPower_Insulation_Heat>
+			<SharpDamageMultiplier>100</SharpDamageMultiplier>
+			<BluntDamageMultiplier>100</BluntDamageMultiplier>
+			<Beauty>120</Beauty>
+		</statBases>
+		<stuffProps>
+			<categories>
+				<li>Metallic</li>
+				<li>Woody</li>
+				<li>Stony</li>
+				<li>Fabric</li>
+				<li>Leathery</li>
+			</categories>
+			<color>(255,0,0)</color>
+			<appearance>Smooth</appearance>
+			<commonality>0.0</commonality>
+			<constructEffect>ConstructMetal</constructEffect>
+			<soundMeleeHitSharp>MeleeHit_Metal_Sharp</soundMeleeHitSharp>
+			<soundMeleeHitBlunt>MeleeHit_Metal_Blunt</soundMeleeHitBlunt>
+			<statOffsets>
+				<Beauty>240</Beauty>
+				<!--<Cleanliness>1</Cleanliness>-->
+			</statOffsets>
+			<statFactors>
+				<MaxHitPoints>5000</MaxHitPoints>
+				<Flammability>0</Flammability>
+				<WorkToMake>0.1</WorkToMake>
+				<WorkToBuild>0.1</WorkToBuild>
+				<WorkTableWorkSpeedFactor>50</WorkTableWorkSpeedFactor>
+				<MeleeWeapon_CooldownMultiplier>0.05</MeleeWeapon_CooldownMultiplier>
+				<Comfort>50</Comfort>
+				<BedRestEffectiveness>15</BedRestEffectiveness>
+				<ImmunityGainSpeedFactor>15</ImmunityGainSpeedFactor>
+				<ResearchSpeedFactor>50</ResearchSpeedFactor>
+				<DoorOpenSpeed>10</DoorOpenSpeed>
+				<ArmorRating_Blunt>100</ArmorRating_Blunt>
+				<ArmorRating_Sharp>100</ArmorRating_Sharp>
+				<ArmorRating_Heat>100</ArmorRating_Heat>
+				<Insulation_Cold>500</Insulation_Cold>
+				<Insulation_Heat>500</Insulation_Heat>
+				<DeteriorationRate>-1.0</DeteriorationRate>
+			</statFactors>
+		</stuffProps>
+	</ThingDef>
+
+</Defs>

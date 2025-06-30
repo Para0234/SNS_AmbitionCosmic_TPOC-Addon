@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+	<RecipeDef ParentName="SNS_PinnacleFabricator_Item">
+		<defName>SNS_Production_PinnacleFabricator_BionicGenIV_Eye</defName>
+		<label>Pattern zenith eye</label>
+		<description>Pattern a single zenith eye from nothingness.</description>
+		<products>
+			<SNS_Item_BionicEye_GenIV>1</SNS_Item_BionicEye_GenIV>
+		</products>
+	</RecipeDef>
+
+	<RecipeDef ParentName="SNS_PinnacleFabricator_Item">
+		<defName>SNS_Production_PinnacleFabricator_BionicGenIV_Ear</defName>
+		<label>Pattern zenith ear</label>
+		<description>Pattern a single zenith ear from nothingness.</description>
+		<products>
+			<SNS_Item_BionicEar_GenIV>1</SNS_Item_BionicEar_GenIV>
+		</products>
+	</RecipeDef>
+
+	<RecipeDef ParentName="SNS_PinnacleFabricator_Item">
+		<defName>SNS_Production_PinnacleFabricator_BionicGenIV_Nose</defName>
+		<label>Pattern zenith nose</label>
+		<description>Pattern a single zenith nose from nothingness.</description>
+		<products>
+			<SNS_Item_BionicNose_GenIV>1</SNS_Item_BionicNose_GenIV>
+		</products>
+	</RecipeDef>
+
+	<RecipeDef ParentName="SNS_PinnacleFabricator_Item">
+		<defName>SNS_Production_PinnacleFabricator_BionicGenIV_Jaw</defName>
+		<label>Pattern zenith jaw</label>
+		<description>Pattern a single zenith jaw from nothingness.</description>
+		<products>
+			<SNS_Item_BionicJaw_GenIV>1</SNS_Item_BionicJaw_GenIV>
+		</products>
+	</RecipeDef>
+
+	<RecipeDef ParentName="SNS_PinnacleFabricator_Item">
+		<defName>SNS_Production_PinnacleFabricator_BionicGenIV_Head</defName>
+		<label>Pattern zenith head shroud</label>
+		<description>Pattern a single zenith head shroud from nothingness.</description>
+		<products>
+			<SNS_Item_BionicHead_GenIV>1</SNS_Item_BionicHead_GenIV>
+		</products>
+	</RecipeDef>
+
+	<RecipeDef ParentName="SNS_PinnacleFabricator_Item">
+		<defName>SNS_Production_PinnacleFabricator_BionicGenIV_Neck</defName>
+		<label>Pattern zenith neck shroud</label>
+		<description>Pattern a single zenith neck shroud from nothingness.</description>
+		<products>
+			<SNS_Item_BionicNeck_GenIV>1</SNS_Item_BionicNeck_GenIV>
+		</products>
+	</RecipeDef>
+
+	<RecipeDef ParentName="SNS_PinnacleFabricator_Item">
+		<defName>SNS_Production_PinnacleFabricator_BionicGenIV_Torso</defName>
+		<label>Pattern zenith torso shroud</label>
+		<description>Pattern a single zenith torso shroud from nothingness.</description>
+		<products>
+			<SNS_Item_BionicTorso_GenIV>1</SNS_Item_BionicTorso_GenIV>
+		</products>
+	</RecipeDef>
+
+	<RecipeDef ParentName="SNS_PinnacleFabricator_Item">
+		<defName>SNS_Production_PinnacleFabricator_BionicGenIV_Arm</defName>
+		<label>Pattern zenith arm</label>
+		<description>Pattern a single zenith arm from nothingness.</description>
+		<products>
+			<SNS_Item_BionicArm_GenIV>1</SNS_Item_BionicArm_GenIV>
+		</products>
+	</RecipeDef>
+
+	<RecipeDef ParentName="SNS_PinnacleFabricator_Item">
+		<defName>SNS_Production_PinnacleFabricator_BionicGenIV_Leg</defName>
+		<label>Pattern zenith leg</label>
+		<description>Pattern a single zenith leg from nothingness.</description>
+		<products>
+			<SNS_Item_BionicLeg_GenIV>1</SNS_Item_BionicLeg_GenIV>
+		</products>
+	</RecipeDef>
+
+	<RecipeDef ParentName="SNS_PinnacleFabricator_Item">
+		<defName>SNS_Production_PinnacleFabricator_BionicGenIV_Spine</defName>
+		<label>Pattern zenith spine</label>
+		<description>Pattern a single zenith spine from nothingness.</description>
+		<products>
+			<SNS_Item_BionicSpine_GenIV>1</SNS_Item_BionicSpine_GenIV>
+		</products>
+	</RecipeDef>
+
+	<RecipeDef ParentName="SNS_PinnacleFabricator_Item">
+		<defName>SNS_Production_PinnacleFabricator_BionicGenIV_Brain</defName>
+		<label>Pattern zenith brain enchantment</label>
+		<description>Pattern a single zenith brain enchantment from nothingness.</description>
+		<products>
+			<SNS_Item_BionicBrain_GenIV>1</SNS_Item_BionicBrain_GenIV>
+		</products>
+	</RecipeDef>
+
+	<RecipeDef ParentName="SNS_PinnacleFabricator_Item">
+		<defName>SNS_Production_PinnacleFabricator_BionicGenIV_Heart</defName>
+		<label>Pattern zenith heart</label>
+		<description>Pattern a single zenith heart from nothingness.</description>
+		<products>
+			<SNS_Item_BionicHeart_GenIV>1</SNS_Item_BionicHeart_GenIV>
+		</products>
+	</RecipeDef>
+
+	<RecipeDef ParentName="SNS_PinnacleFabricator_Item">
+		<defName>SNS_Production_PinnacleFabricator_BionicGenIV_Lung</defName>
+		<label>Pattern zenith lung</label>
+		<description>Pattern a single zenith lung from nothingness.</description>
+		<products>
+			<SNS_Item_BionicLung_GenIV>1</SNS_Item_BionicLung_GenIV>
+		</products>
+	</RecipeDef>
+
+	<RecipeDef ParentName="SNS_PinnacleFabricator_Item">
+		<defName>SNS_Production_PinnacleFabricator_BionicGenIV_Kidney</defName>
+		<label>Pattern zenith kidney</label>
+		<description>Pattern a single zenith kidney from nothingness.</description>
+		<products>
+			<SNS_Item_BionicKidney_GenIV>1</SNS_Item_BionicKidney_GenIV>
+		</products>
+	</RecipeDef>
+
+	<RecipeDef ParentName="SNS_PinnacleFabricator_Item">
+		<defName>SNS_Production_PinnacleFabricator_BionicGenIV_Liver</defName>
+		<label>Pattern zenith liver</label>
+		<description>Pattern a single zenith liver from nothingness.</description>
+		<products>
+			<SNS_Item_BionicLiver_GenIV>1</SNS_Item_BionicLiver_GenIV>
+		</products>
+	</RecipeDef>
+
+	<RecipeDef ParentName="SNS_PinnacleFabricator_Item">
+		<defName>SNS_Production_PinnacleFabricator_BionicGenIV_Stomach</defName>
+		<label>Pattern zenith digestive system</label>
+		<description>Pattern a single zenith digestive system from nothingness.</description>
+		<products>
+			<SNS_Item_BionicStomach_GenIV>1</SNS_Item_BionicStomach_GenIV>
+		</products>
+	</RecipeDef>
+
+</Defs>
