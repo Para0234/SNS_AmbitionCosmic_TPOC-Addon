@@ -6,6 +6,7 @@
 		<label>Pattern Hedonist's Dreams</label>
 		<workAmount>3000</workAmount>
 		<description>Pattern a stack of Hedonist's Dream from nothingness.</description>
+		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
 		<products>
 			<SNS_Meal_Normal_GenIV>25</SNS_Meal_Normal_GenIV>
 		</products>
@@ -16,6 +17,7 @@
 		<label>Pattern 25 Gift of Eternity</label>
 		<workAmount>3000</workAmount>
 		<description>Pattern 25 of the Gift of Eternity from nothingness.</description>
+		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
 		<products>
 			<SNS_Medicine_Pinnacle>25</SNS_Medicine_Pinnacle>
 		</products>
@@ -24,6 +26,7 @@
 	<RecipeDef ParentName="SNS_PinnacleFabricator_Item">
 		<defName>SNS_Production_PinnacleFabricator_StableMatter</defName>
 		<workAmount>9000</workAmount>
+		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
 		<label>Draw Stable Matter</label>
 		<description>Forge strong and stalwart Stable Matter from nothingness..</description>
 		<products>
