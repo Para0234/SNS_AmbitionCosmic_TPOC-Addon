@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Defs>
 
 	<ThingDef ParentName="ResourceBase">
@@ -46,6 +46,7 @@
 			<Beauty>120</Beauty>
 		</statBases>
 		<stuffProps>
+			<isAirtight>true</isAirtight>
 			<categories>
 				<li>Metallic</li>
 				<li>Woody</li>
