@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Defs>
 
   <ThingDef ParentName="BaseWeapon"> <!-- A -->
@@ -25,6 +25,15 @@
     </thingCategories>
     <tradeTags />
     <burnableByRecipe>true</burnableByRecipe>
+    <thingCategories Inherit="False">
+      <li>SNSSuperWeapons</li>
+    </thingCategories>
+	<weaponTags Inherit="False">
+	  <li>SNSSuperWeapons</li>
+    </weaponTags>
+	<tradeTags  Inherit="False">
+	  <li>SNSSuperWeapons</li>
+    </tradeTags>
     <tools>
       <li>
         <label>temporal blade</label>
