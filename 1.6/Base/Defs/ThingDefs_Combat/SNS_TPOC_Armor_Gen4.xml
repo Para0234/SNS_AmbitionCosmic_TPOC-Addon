@@ -52,7 +52,9 @@
     <thingCategories>
       <li>ApparelArmor</li>
     </thingCategories>
-    <tradeTags />
+    <tradeTags Inherit="False">
+      <li>SNSSuperWeapons</li>
+    </tradeTags>
     <apparel>
       <bodyPartGroups>
         <li>FullHead</li>
@@ -132,8 +134,8 @@
     <thingCategories>
       <li>ApparelArmor</li>
     </thingCategories>
-    <tradeTags>
-      <li>HiTechArmor</li>
+    <tradeTags Inherit="False">
+      <li>SNSSuperWeapons</li>
     </tradeTags>
     <costList>
     </costList>
