@@ -31,16 +31,16 @@
       <MeleeHitChance>0.5</MeleeHitChance>
       <MeleeDodgeChance>0.25</MeleeDodgeChance>
       <ToxicResistance>1</ToxicResistance>
-      <PsychicSensitivity>3</PsychicSensitivity>
+      <PsychicSensitivity MayRequire="Ludeon.RimWorld.Royalty">3</PsychicSensitivity>
       <MentalBreakThreshold>-2</MentalBreakThreshold>
-      <PsychicEntropyRecoveryRate>10</PsychicEntropyRecoveryRate>
-      <PsychicEntropyMax>2000</PsychicEntropyMax>
-      <SubcoreEncodingSpeed>3</SubcoreEncodingSpeed>
-      <MechRepairSpeed>1</MechRepairSpeed>
-      <MechControlGroups>9</MechControlGroups>
-      <MechRemoteShieldEnergy>250</MechRemoteShieldEnergy>
-      <MechBandwidth>60</MechBandwidth>
-      <WorkSpeedGlobalOffsetMech>4</WorkSpeedGlobalOffsetMech>
+      <PsychicEntropyRecoveryRate MayRequire="Ludeon.RimWorld.Royalty">10</PsychicEntropyRecoveryRate>
+      <PsychicEntropyMax MayRequire="Ludeon.RimWorld.Royalty">2000</PsychicEntropyMax>
+      <SubcoreEncodingSpeed MayRequire="Ludeon.RimWorld.Biotech">3</SubcoreEncodingSpeed>
+      <MechRepairSpeed MayRequire="Ludeon.RimWorld.Biotech">1</MechRepairSpeed>
+      <MechControlGroups MayRequire="Ludeon.RimWorld.Biotech">9</MechControlGroups>
+      <MechRemoteShieldEnergy MayRequire="Ludeon.RimWorld.Biotech">250</MechRemoteShieldEnergy>
+      <MechBandwidth MayRequire="Ludeon.RimWorld.Biotech">60</MechBandwidth>
+      <WorkSpeedGlobalOffsetMech MayRequire="Ludeon.RimWorld.Biotech">4</WorkSpeedGlobalOffsetMech>
       <EatingSpeed>1</EatingSpeed>
       <FilthRate>-0.5</FilthRate> <!--brainwashes you to clean up after yourself-->
       <RestFallRateFactor>-0.5</RestFallRateFactor> <!--NO SLEEP TILL BROOKLYN!-->
@@ -117,13 +117,13 @@
       <MeleeDamageFactor>1</MeleeDamageFactor>
       <StaggerDurationFactor>-1</StaggerDurationFactor>
       <CarryingCapacity>500</CarryingCapacity> <!--Probably doesn't work.-->
-      <PsychicSensitivity>1</PsychicSensitivity>
-      <SubcoreEncodingSpeed>1</SubcoreEncodingSpeed>
-      <MechRepairSpeed>3</MechRepairSpeed>
-      <MechControlGroups>3</MechControlGroups>
-      <MechRemoteShieldEnergy>250</MechRemoteShieldEnergy>
-      <MechBandwidth>20</MechBandwidth>
-      <MechFormingSpeed>4</MechFormingSpeed>
+      <PsychicSensitivity MayRequire="Ludeon.RimWorld.Royalty">1</PsychicSensitivity>
+      <SubcoreEncodingSpeed MayRequire="Ludeon.RimWorld.Biotech">1</SubcoreEncodingSpeed>
+      <MechRepairSpeed MayRequire="Ludeon.RimWorld.Biotech">3</MechRepairSpeed>
+      <MechControlGroups MayRequire="Ludeon.RimWorld.Biotech">3</MechControlGroups>
+      <MechRemoteShieldEnergy MayRequire="Ludeon.RimWorld.Biotech">250</MechRemoteShieldEnergy>
+      <MechBandwidth MayRequire="Ludeon.RimWorld.Biotech">20</MechBandwidth>
+      <MechFormingSpeed MayRequire="Ludeon.RimWorld.Biotech">4</MechFormingSpeed>
       <EatingSpeed>1</EatingSpeed>
       <FilthRate>-1.5</FilthRate>
       <RestFallRateFactor>-0.5</RestFallRateFactor>

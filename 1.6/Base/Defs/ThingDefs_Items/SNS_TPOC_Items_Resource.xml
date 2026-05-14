@@ -54,7 +54,7 @@
 				<li>Fabric</li>
 				<li>Leathery</li>
 			</categories>
-			<color>(255,0,0)</color>
+			<color>(175,0,0)</color>
 			<appearance>Smooth</appearance>
 			<commonality>0.0</commonality>
 			<constructEffect>ConstructMetal</constructEffect>
