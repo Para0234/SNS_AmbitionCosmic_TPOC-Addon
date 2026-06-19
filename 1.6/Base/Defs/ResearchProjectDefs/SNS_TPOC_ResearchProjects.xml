@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+	<!-- Generation 4 -->
+
+	<ResearchProjectDef ParentName="SNS_Research_Base">
+		<defName>SNS_Research_VII</defName>
+		<label>Pinnacle Of Creation</label>
+		<description>We are the pinnacle of creation. The Zenith of all, the tower atop the eternal, endless sea. We reached up to the stars and the skies, and grasped onto the vast horizons. We finally, at last know the truth: We are the undisputed masters of all reality, atop the Zenith, beyond all perception. Such great privilage.</description>
+		<baseCost>5000000</baseCost>
+		<techLevel>Archotech</techLevel>
+		<requiredResearchFacilities>
+			<li>SNS_Linkable_Unlocker_POC</li>
+		</requiredResearchFacilities>
+		<prerequisites>
+			<li>SNS_Research_VI_final</li>
+		</prerequisites>
+		<researchViewX>32</researchViewX>
+		<researchViewY>2.2</researchViewY>
+	</ResearchProjectDef>
+
+	<!-- Generation Infinity -->
+
+	<ResearchProjectDef ParentName="SNS_Research_Base">
+		<defName>SNS_Research_infinite</defName>
+		<label>Beyond our Understanding</label>
+		<description>In the darkness of what lies beyond our vision lies the true great Unknown, the second ceiling of all technology; that one hard barrier that inhibits all progress. Some things will forever lie beyond our grasp, for Science Never Stops, even with our Ambition of the Cosmic.\n\n[[NOTE: This research is NOT intended to be completed. Usually, it is made so that it literally cannot be completed.]</description>
+		<baseCost>Infinity</baseCost>
+		<techLevel>Archotech</techLevel>
+		<prerequisites>
+			<li>SNS_Research_VII</li>
+		</prerequisites>
+		<researchViewX>33</researchViewX>
+		<researchViewY>2.2</researchViewY>
+		<modExtensions>
+			<li Class="InfiniteResearch.ResearchExtension_Infinite" />
+		</modExtensions>
+	</ResearchProjectDef>
+</Defs>

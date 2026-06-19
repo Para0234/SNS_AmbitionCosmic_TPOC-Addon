@@ -1,0 +1,18 @@
+{
+  "TextureModID": "para0234.snsambitioncosmicgen4addon",
+  "ItemDefName": "SNS_RecursionMelee",
+  "ItemType": "ThingDef",
+  "ItemTypeNamespace": "Verse",
+  "OffX": 0.3768116,
+  "Rotation": 90.0,
+  "HandsMode": 1,
+  "BladeStart": 0.125113323,
+  "BladeEnd": 0.8341385,
+  "MeleeWeaponType": 6,
+  "TrailTint": {
+    "r": 0.0,
+    "g": 0.0,
+    "b": 0.0,
+    "a": 0.0
+  }
+}
