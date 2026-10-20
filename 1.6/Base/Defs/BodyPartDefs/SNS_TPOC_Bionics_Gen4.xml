@@ -662,6 +662,9 @@
 			<ThingDef>SNS_Item_BionicBrain_GenIV</ThingDef>
 		</descriptionHyperlinks>
 		<spawnThingOnRemoved>SNS_Item_BionicBrain_GenIV</spawnThingOnRemoved>
+		<tags>
+			<li>SNS_NeuralEnchanter</li>
+		</tags>
 		<stages>
 			<li>
 				<painFactor>0</painFactor>
@@ -681,7 +684,7 @@
 	<ThingDef ParentName="SNS_BionicBodyPartBase_GenIV">
 		<defName>SNS_Item_BionicBrain_GenIV</defName>
 		<label>zenith neural enchantment</label>
-		<description>An infusion of the mind itself, the zenith neural enchantment expands one's mind beyond that of even transendant Archotechs, exposing the true nature of reality to one. It can not be removed without destroying the brain, unless a replacement neural enchanter is given.\n\nInstalled Neural Enchanters prevent the development of Alzheimers and Dementia, but cannot cure existing conditions.</description>
+		<description>An infusion of the mind itself, the zenith neural enchantment expands one's mind beyond that of even transendant Archotechs, exposing the true nature of reality to one.\n\nInstalled Neural Enchanters prevent the development of Alzheimers and Dementia, but cannot cure existing conditions.</description>
 		<descriptionHyperlinks>
 			<RecipeDef>SNS_InstallBodyPart_BionicBrain_GenIV</RecipeDef>
 		</descriptionHyperlinks>
@@ -691,7 +694,7 @@
 		</statBases>
 	</ThingDef>
 
-	<RecipeDef ParentName="SurgeryInstallBodyPartArtificialBase">
+	<RecipeDef ParentName="SurgeryInstallImplantBase">
 		<defName>SNS_InstallBodyPart_BionicBrain_GenIV</defName>
 		<label>install zenith neural enchantment</label>
 		<description>Install a zenith neural enchantment.</description>
@@ -700,6 +703,9 @@
 			<HediffDef>SNS_Hediff_BionicBrain_GenIV</HediffDef>
 		</descriptionHyperlinks>
 		<jobString>Installing zenith neural enchantment.</jobString>
+		<incompatibleWithHediffTags>
+			<li>SNS_NeuralEnchanter</li>
+		</incompatibleWithHediffTags>
 		<ingredients>
 			<li>
 				<filter>

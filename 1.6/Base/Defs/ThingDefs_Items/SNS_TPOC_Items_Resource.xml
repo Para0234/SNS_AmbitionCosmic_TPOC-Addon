@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
 
 	<ThingDef ParentName="ResourceBase">
@@ -82,6 +82,7 @@
 				<Insulation_Cold>500</Insulation_Cold>
 				<Insulation_Heat>500</Insulation_Heat>
 				<DeteriorationRate>-1.0</DeteriorationRate>
+				<Beauty>10</Beauty>
 			</statFactors>
 		</stuffProps>
 	</ThingDef>

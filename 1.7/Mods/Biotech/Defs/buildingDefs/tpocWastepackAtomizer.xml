@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+    <ThingDef ParentName="BuildingBase">
+        <defName>StableMatterWastepackAtomizer</defName>
+        <label>Miraculous Wastepack Atomizer</label>
+        <description>This wastepack atomizer is incredibly fast. And deep, somehow. the amount of wastepacks you can fill it up with is unbelievable, when compared to its actual size, and it can atomize them all at an incredible speed..</description>
+        <thingClass>Building_WastepackAtomizer</thingClass>
+        <drawerType>MapMeshAndRealTime</drawerType>
+        <tickerType>Normal</tickerType>
+        <graphicData>
+                <texPath>Things/Building/Biotech/StableWastepackAtomizer/StableWastepackAtomizer</texPath>
+            <graphicClass>Graphic_Multi</graphicClass>
+            <drawSize>(3,2)</drawSize>
+            <shadowData>
+                <volume>(3, 0.35, 2)</volume>
+            </shadowData>
+        </graphicData>
+        <altitudeLayer>Building</altitudeLayer>
+        <passability>PassThroughOnly</passability>
+        <canOverlapZones>false</canOverlapZones>
+        <pathCost>42</pathCost>
+        <blockWind>true</blockWind>
+        <fillPercent>0.5</fillPercent>
+        <building>
+            <buildingTags>
+                <li>Biotech</li>
+            </buildingTags>
+            <ai_chillDestination>false</ai_chillDestination>
+            <wastepackAtomizerBottomGraphic>
+                <texPath>Things/Building/Biotech/StableWastepackAtomizer/StableWastepackAtomizer_BottomLayer</texPath>
+                <graphicClass>Graphic_Multi</graphicClass>
+                <drawSize>(3,2)</drawSize>
+            </wastepackAtomizerBottomGraphic>
+            <wastepackAtomizerWindowGraphic>
+                <texPath>Things/Building/Biotech/WastepackAtomizer/WastepackAtomizerWindow</texPath>
+                <graphicClass>Graphic_Multi</graphicClass>
+                <drawSize>(3,2)</drawSize>
+            </wastepackAtomizerWindowGraphic>
+            <wastepackAtomizerOperationEffecter>WastepackAtomizer_Operating</wastepackAtomizerOperationEffecter>
+        </building>
+        <designationCategory>Biotech</designationCategory>
+        <hasInteractionCell>true</hasInteractionCell>
+        <interactionCellOffset>(0, 0, -1)</interactionCellOffset>
+        <statBases>
+            <MaxHitPoints>500</MaxHitPoints>
+            <WorkToBuild>50000</WorkToBuild>
+            <Mass>80</Mass>
+            <Flammability>0</Flammability>
+        </statBases>
+        <size>(3,2)</size>
+        <costList>
+            <SNS_StableMatter>250</SNS_StableMatter>
+            <SNS_Unobtainium>200</SNS_Unobtainium>
+        </costList>
+        <researchPrerequisites>
+            <li>WastepackAtomizer</li>
+            <li>AOTC_CosmicWastepackAtomizer_Research</li>
+            <li>SNS_Research_VII</li>
+        </researchPrerequisites>
+        <constructionSkillPrerequisite>15</constructionSkillPrerequisite>
+        <comps>
+            <li Class="CompProperties_Power">
+                <compClass>CompPowerTrader</compClass>
+                <basePowerConsumption>25000</basePowerConsumption>
+            </li>
+            <li Class="CompProperties_Atomizer">
+                <thingDef>Wastepack</thingDef>
+                <stackLimit>500</stackLimit>
+                <drawContainedThing>false</drawContainedThing>
+                <ticksPerAtomize>1000</ticksPerAtomize>
+                <resolveEffecter>AtomizerResolve</resolveEffecter>
+                <workingEffecter>WastepackAtomizer_Working</workingEffecter>
+                <materialsAddedSound>WastepackAtomizer_MaterialInserted</materialsAddedSound>
+                <contentsDrawOffset>(0.05, 0, 0.2)</contentsDrawOffset>
+            </li>
+            <li Class="CompProperties_Flickable"/>
+        </comps>
+    </ThingDef>
+</Defs>
